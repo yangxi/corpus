@@ -1,4 +1,5 @@
 import scrapy
+import json
 
 # title
 
@@ -33,158 +34,40 @@ import scrapy
 # ```
 
 class YanbianSpider(scrapy.Spider):
-    # url: {"type":"index"|"article", "status":"start"|"done", "payload":{"title", "catalogue", "date", "author", "img", "content"}}
     name = 'yanbian'
-    nr_page = 20;
-    init_pages = [
-        {
-            "url":'http://www.iybrb.com/eco/12_130.html',
-            "start_page":130,
-            "end_page":150
-        },
-        {
-            "url":'http://www.iybrb.com/eco/12_135.html',
-            "start_page":135,
-            "end_page":150
-        },
-        {
-            "url":'http://www.iybrb.com/pol/17_160.html',
-            "start_page":160,
-            "end_page":175
-        },
-        {
-            "url":'http://www.iybrb.com/soc/21_88.html',
-            "start_page":88,
-            "end_page":95
-        },
-        {
-            "url":'http://www.iybrb.com/soc/22_175.html',
-            "start_page":175,
-            "end_page":185
-        },
-        {
-            "url":'http://www.iybrb.com/soc/24_73.html',
-            "start_page":73,
-            "end_page":76
-        },
-        {
-            "url":'http://www.iybrb.com/eco/63_68.html',
-            "start_page":68,
-            "end_page":72
-        },
-        {
-            "url":'http://www.iybrb.com/eco/14_80.html',
-            "start_page":80,
-            "end_page":90
-        },
-        {
-            "url":'http://www.iybrb.com/soc/25_76.html',
-            "start_page":76,
-            "end_page":81
-        },
-        {
-            "url":'http://www.iybrb.com/civ/27_102.html',
-            "start_page":102,
-            "end_page":108
-        },
-        {
-            "url":'http://www.iybrb.com/civ/28_77.html',
-            "start_page":77,
-            "end_page":80
-        },
-        {
-            "url":'http://www.iybrb.com/sport/35_192.html',
-            "start_page":192,
-            "end_page":200
-        },
-        {
-            "url":'http://www.iybrb.com/ser/51_16.html',
-            "start_page":16,
-            "end_page":17
-        },
-        {
-            "url":'http://www.iybrb.com/pla/48_113.html',
-            "start_page":113,
-            "end_page":118
-        },
-        {
-            "url":'http://www.iybrb.com/pla/47_28.html',
-            "start_page":28,
-            "end_page":32
-        }
-    ];
-#     http://www.iybrb.com/pol/17_160.html  160-175
-# http://www.iybrb.com/soc/21_88.html  88-95
-# http://www.iybrb.com/soc/22_175.html  175-185
-# http://www.iybrb.com/soc/24_73.html  73-76
-# http://www.iybrb.com/eco/63_68.html  68-72
-# http://www.iybrb.com/eco/14_80.html  80-90
-# http://www.iybrb.com/soc/25_76.html  76-81
-# http://www.iybrb.com/civ/27_102.html  102-108
-# http://www.iybrb.com/civ/28_77.html  77-80
-# http://www.iybrb.com/sport/35_192.html  192-200
-#http://www.iybrb.com/pla/47_28.html  28-32
-#http://www.iybrb.com/pla/48_113.html  113-118
-#http://www.iybrb.com/ser/51_16.html  16-17
-    # init_pages = [
-    #     'http://www.iybrb.com/eco/7.html',
-    #     'http://www.iybrb.com/eco/9.html',
-    #     'http://www.iybrb.com/eco/10.html',
-    #     'http://www.iybrb.com/eco/63.html',
-    #     'http://www.iybrb.com/eco/11.html',
-    #     'http://www.iybrb.com/eco/12.html',
-    #     'http://www.iybrb.com/eco/13.html',
-    #     'http://www.iybrb.com/eco/14.html',
-    #     'http://www.iybrb.com/soc/19.html',
-    #     'http://www.iybrb.com/soc/21.html',
-    #     'http://www.iybrb.com/soc/22.html',
-    #     'http://www.iybrb.com/soc/24.html',
-    #     'http://www.iybrb.com/soc/25.html',
-    #     'http://www.iybrb.com/civ/26.html',
-    #     'http://www.iybrb.com/civ/26.html',
-    #     'http://www.iybrb.com/civ/27.html',
-    #     'http://www.iybrb.com/civ/28.html',
-    #     'http://www.iybrb.com/civ/29.html',
-    #     'http://www.iybrb.com/civ/30.html',
-    #     'http://www.iybrb.com/civ/31.html',
-    #     'http://www.iybrb.com/news/59.html',
-    #     'http://www.iybrb.com/news/60.html',
-    #     'http://www.iybrb.com/news/61.html',
-    #     'http://www.iybrb.com/news/62.html',
-    #     'http://www.iybrb.com/com/54.html',
-    #     'http://www.iybrb.com/com/55.html',
-    #     'http://www.iybrb.com/com/56.html',
-    #     'http://www.iybrb.com/pol/15.html',
-    #     'http://www.iybrb.com/pol/16.html',
-    #     'http://www.iybrb.com/pol/17.html',
-    #     'http://www.iybrb.com/pol/18.html',
-    #     'http://www.iybrb.com/env/40.html',
-    #     'http://www.iybrb.com/env/41.html',
-    #     'http://www.iybrb.com/env/42.html',
-    #     'http://www.iybrb.com/env/66.html',
-    #     'http://www.iybrb.com/env/355.html',
-    #     'http://www.iybrb.com/pla/46.html',
-    #     'http://www.iybrb.com/pla/46.html',
-    #     'http://www.iybrb.com/pla/47.html',
-    #     'http://www.iybrb.com/pla/48.html',
-    #     'http://www.iybrb.com/pla/65.html',
-    #     'http://www.iybrb.com/ser/50.html',
-    #     'http://www.iybrb.com/ser/51.html'    
-    #     'http://www.iybrb.com/sport/34.html',
-    #     'http://www.iybrb.com/sport/35.html',
-    #     'http://www.iybrb.com/sport/36.html',
-    #     'http://www.iybrb.com/sport/37.html',
-    #     'http://www.iybrb.com/sport/38.html'
-    # ];
-    #        'http://www.iybrb.com/pol/15.html': {"type": "index", "status": "start", "payload": {}},
-    #        'http://www.iybrb.com/eco/7.html': {"type": "index", "status": "start", "payload": {}},
+
+    init_pages = []
+    def __init__(self, task=None, *args, **kwargs):
+        super(YanbianSpider, self).__init__(*args, **kwargs)
+        if task:
+            if task.endswith('.json'):
+                # [{"url":"http://xxx", "start_page":number, "end_page":number}...]
+                with open(task, 'r') as f:
+                    self.init_pages = json.load(f)
+            else:
+                with open(task, 'r') as f:
+                    pages = f.readlines()
+                    for l in pages:
+                        t = l.split(' ')
+                        p_url = t[0]
+                        if not p_url.startswith("http://"):
+                            printf("Task file is not in right format, wrong url:{}".format(p_url))
+                            exit(1)
+                        s_p = int(t[1])
+                        e_p = int(t[2])
+                        if e_p < s_p:
+                            printf("task file is not in right format, end_page is smaller than start_page: {} < {}".format(e_p,s_p))
+                            exit(1)
+                        self.init_pages.append({"url":p_url, "start_page":s_p, "end_page":e_p})
+        else:
+            printf("scrapy crawl yanbian -o task=./INITPAGE.json")
+            exit(1)
+
     pages = {
     };
     def start_requests(self):
         index_url  = getattr(self, 'index', None);
         nr_index_page = getattr(self, 'page', None);
-        if nr_index_page is not None:
-            self.nr_page = int(nr_index_page);
         starting_urls = [];
         if index_url is not None:
             print("Using paseed index page " + index_url);
