@@ -28,7 +28,7 @@ def get_first_w(name):
 
 def catalogue_groups(groups, file_prefix):
     for k in groups:
-        file_name = file_prefix + get_first_w(k) + '.json'
+        file_name = file_prefix + '-' + get_first_w(k) + '.json'
         articles = groups[k]
         with open(file_name, 'w') as dest:
             print("Output {} articles in catalogue {} to file {}".format(len(articles), k, file_name))

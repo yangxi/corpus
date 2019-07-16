@@ -73,7 +73,6 @@ def parse_foreign_word_filter(f):
         if w and w not in tags:
             tags[w] = True
     filter["tags"] = tags
-    print(filter)
     return filter
 
 def match_filter(freq, filter):
@@ -89,6 +88,8 @@ def match_filter(freq, filter):
 def report_match_filter(table, file):
     keys = list(table.keys())
     keys.sort()
+    keys = sorted(keys, key=lambda key: 0 if (len(table[key]) == 0) else 1)
+
     with open(file, 'w') as f:
         for k in keys:
             line = "{}\t".format(k)
@@ -98,9 +99,6 @@ def report_match_filter(table, file):
                 count = m[w]["count"]
                 line += "{}\t{}\t".format(w, count)
             f.write(line+"\n")
-
-
-
 
 def parse_suffix_tag(tag_string):
     t = tag_string.strip().split(",")
