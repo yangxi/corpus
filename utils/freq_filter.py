@@ -21,13 +21,14 @@ def remove_suffix(kw, tag):
         #    return nw
         kw = nw
 
-def suffix_filter(freq, tag):
+def suffix_filter(freq, filter):
     """
     :param freq: dict [korean_word]:{freq:number
     :param tag: dict [korean_suffix_word]
     :return: freq: dict [korean_wrod]:{freq: number, from:[korean_works]}
     """
     ret = {}
+    tag = filter["tags"]
     for kw in freq:
         c = freq[kw]["count"]
         fw = kw
@@ -51,6 +52,55 @@ def parse_freq_file(fname):
                 print('Warning: {} is duplicated'.format(kw))
             ret[kw] = {"count":kc}
     return ret
+
+def parse_virtual_word_filter(f):
+    filter = {"name":"virtual word filter",
+              "filter": suffix_filter,
+              "tags":{}}
+    tag_string = tag_file.read().strip()
+    tags = parse_suffix_tag(tag_string)
+    if tags:
+        filter["tags"] = tags
+    return filter
+
+def parse_foreign_word_filter(f):
+    filter = {"name":"virtual word filter",
+              "filter": match_filter,
+              "tags":[]}
+    tags = {}
+    for l in f.readlines():
+        w = l.strip()
+        if w and w not in tags:
+            tags[w] = True
+    filter["tags"] = tags
+    print(filter)
+    return filter
+
+def match_filter(freq, filter):
+    ret = {}
+    tags = filter["tags"]
+    for tag in tags.keys():
+        ret[tag] = []
+        for kw in freq.keys():
+            if kw.find(tag) != -1:
+                ret[tag].append({kw:freq[kw]})
+    return ret
+
+def report_match_filter(table, file):
+    keys = list(table.keys())
+    keys.sort()
+    with open(file, 'w') as f:
+        for k in keys:
+            line = "{}\t".format(k)
+            #[{w:{from:[], count;x}}, ...}
+            for m in table[k]:
+                w = list(m.keys())[0]
+                count = m[w]["count"]
+                line += "{}\t{}\t".format(w, count)
+            f.write(line+"\n")
+
+
+
 
 def parse_suffix_tag(tag_string):
     t = tag_string.strip().split(",")
@@ -83,13 +133,19 @@ def report_csv_freq(freq, csv_file):
 if __name__ == '__main__':
     #"는,은,도,이,가,나,를,을,과,와,의,지,져,자,고,까,에,게,겠,서,적,더,데,히,여,려,면,로,러,라,다,뿐,니,해,했,졌,었,였,았,됐,되,된,한,할,하다,하기,하지,하는,하고,하던,하면,으로,보다,처럼,부터,까지"
     if len(sys.argv) != 4:
-        print("freq_filter.py source target tags")
+        print("freq_filter.py source target filter")
     else:
         freq_table = parse_freq_file(sys.argv[1])
-        tags = {}
+        filter
         with open(sys.argv[3], 'r') as tag_file:
-            tag_string = tag_file.read().strip()
-            tags = parse_suffix_tag(tag_string)
-        print(tags)
-        new_table = suffix_filter(freq_table, tags)
-        report_txt_freq(new_table, sys.argv[2])
+            first_line = tag_file.readline()
+            if first_line.find("virtual word filter") != -1:
+                print("Found one virtual worc filter")
+                filter = parse_virtual_word_filter(tag_file)
+                new_table = filter["filter"](freq_table, filter)
+                report_txt_freq(new_table, sys.argv[2])
+            elif first_line.find("foreign word filter") != -1:
+                filter = parse_foreign_word_filter(tag_file)
+                new_table = filter["filter"](freq_table, filter)
+                report_match_filter(new_table, sys.argv[2])
+
