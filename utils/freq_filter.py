@@ -1,5 +1,6 @@
 import sys
 import csv
+from konlpy.tag import Okt
 
 def remove_one_suffix(kw, tag):
     fw = kw
@@ -21,6 +22,18 @@ def remove_suffix(kw, tag):
         #    return nw
         kw = nw
 
+def remove_pos_suffix(kw, suffix_tags):
+    tags = Okt().pos(kw)
+    ret = ""
+    i = len(tags) - 1
+    while i > 0:
+        if tags[i][1] not in suffix_tags:
+            for s in range(0, i + 1):
+                ret += tags[s][0]
+            break
+        i = i-1
+    return ret
+
 def suffix_filter(freq, filter):
     """
     :param freq: dict [korean_word]:{freq:number
@@ -39,6 +52,29 @@ def suffix_filter(freq, filter):
             ret[fw]= {"count": c, "from":[]}
         if fw != kw:
             ret[fw]["from"].append(kw)
+    print(ret)
+    return ret
+
+
+def pos_filter(freq, filter):
+    """
+    :param freq: dict [korean_word]:{freq:number
+    :param tag: dict [korean_suffix_word]
+    :return: freq: dict [korean_wrod]:{freq: number, from:[korean_works]}
+    """
+    ret = {}
+    tag = filter["tags"]
+    for kw in freq:
+        c = freq[kw]["count"]
+        fw = kw
+        fw = remove_pos_suffix(kw, tag)
+        if fw in ret:
+            ret[fw]["count"] += c
+        else:
+            ret[fw]= {"count": c, "from":[]}
+        if fw != kw:
+            ret[fw]["from"].append(kw)
+    print(ret)
     return ret
 
 def parse_freq_file(fname):
@@ -59,6 +95,19 @@ def parse_virtual_word_filter(f):
               "tags":{}}
     tag_string = tag_file.read().strip()
     tags = parse_suffix_tag(tag_string)
+    if tags:
+        filter["tags"] = tags
+    return filter
+
+def parse_pos_filter(f):
+    filter = {"name":"pos word filter",
+              "filter": pos_filter,
+              "tags":{}}
+    tag_string = tag_file.read().strip()
+    types = tag_string.split(' ')
+    tags = {}
+    for t in types:
+        tags[t] = True
     if tags:
         filter["tags"] = tags
     return filter
@@ -146,4 +195,8 @@ if __name__ == '__main__':
                 filter = parse_foreign_word_filter(tag_file)
                 new_table = filter["filter"](freq_table, filter)
                 report_match_filter(new_table, sys.argv[2])
+            elif first_line.find("pos suffix filter") != -1:
+                filter = parse_pos_filter(tag_file)
+                new_table = filter["filter"](freq_table, filter)
+                report_txtfreq(new_table, sys.argv[2])
 

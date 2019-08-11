@@ -5,6 +5,9 @@ Extract word frequencies from the text source:
 Filter out the virtual words:
 `python ../utils/freq-filter.py ./yanbian-2009-wordlist.txt ./yanbian-2009-processed-wordlist.txt ../utils/virtual-word.filter`
 
+Filter out the suffix:
+`python ../utils/freq-filter.py ./yanbian-2009-wordlist.txt ./yanbian-2009-processed-wordlist.txt ../utils/pos-suffix.filter`
+
 Match foreign words with the wordlist:
 `python ../utils/freq-filter.py ./yanbian-2009-processed-wordlist.txt ./yanbian-2009-foreign-wordlist.txt ../utils/foreign-word.filter`
 
