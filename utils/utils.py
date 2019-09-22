@@ -11,12 +11,20 @@ def char_type_detect(texts):
     # japanese
     if re.search(r"[\u3040-\u30ff]", texts):
         return "jp"
+    if re.search(r"[\u3190-\u319f]", texts):
+        return "jp"
     # chinese
+    if re.search(r"[\u2e80-\u2fd5]", texts):
+        return "zh"
+    if re.search(r"[\u3400-\u4dbf]", texts):
+        return "zh"
     if re.search(r"[\u4e00-\u9FFF]", texts):
+        return "zh"
+    if re.search(r"[\uf900-\ufaad]", texts):
         return "zh"
     if re.search(r'[a-zA-Z]', texts):
         return 'en'
-    return 'empty'
+    return 'other'
 
 def test_throughput(kw):
     nr_send = 0

@@ -1,6 +1,10 @@
 import sys
 import csv
+import os
+import json
 from konlpy.tag import Okt
+from utils import search_kw
+import time
 
 def remove_one_suffix(kw, tag):
     fw = kw
@@ -74,7 +78,42 @@ def pos_filter(freq, filter):
             ret[fw]= {"count": c, "from":[]}
         if fw != kw:
             ret[fw]["from"].append(kw)
-    print(ret)
+    if '' in ret:
+        del ret['']
+    return ret
+
+
+def dict_filter(freq, filter):
+    ret = {}
+    k_dict = filter["dict"]
+    search_log_file = None
+    if "search_log" in filter["dict_filter"]:
+        search_log_path = os.path.expanduser(filter["dict_filter"]["search_log"])
+        search_log_file = open(search_log_path, 'a+')
+        print("Open search_log_file {}".format(search_log_path))
+
+    for kw in freq:
+        if kw in ret:
+            continue
+        c = freq[kw]["count"]
+        if kw not in k_dict:
+            try:
+                def block_callback():
+                        if filter["dirty"] and filter["update"]:
+                            print("Update Filter in the call back.")
+                            update_dict(filter)
+                kw_result = search_kw(kw, True, block_callback, search_log_file)
+                print("Add a word to dict", kw_result)
+                k_dict[kw] = kw_result
+                filter["dirty"] = True
+            except Exception as e:
+                print("Received one exception", e)
+                break
+        k = k_dict[kw]
+        ret[kw] = {"count":c, "dict":k}
+    if filter["dirty"] and filter["update"]:
+        print("Update Filter")
+        update_dict(filter)
     return ret
 
 def parse_freq_file(fname):
@@ -86,7 +125,7 @@ def parse_freq_file(fname):
             kc = int(t[1])
             if kw in ret:
                 print('Warning: {} is duplicated'.format(kw))
-            ret[kw] = {"count":kc}
+            ret[kw] = {"count":kc, "line":line}
     return ret
 
 def parse_virtual_word_filter(f):
@@ -97,6 +136,41 @@ def parse_virtual_word_filter(f):
     tags = parse_suffix_tag(tag_string)
     if tags:
         filter["tags"] = tags
+    return filter
+
+def load_dict_file(f):
+    dict = {}
+    if not os.path.exists(f):
+        with open(f, 'w') as dictfile:
+            dictfile.write(json.dumps(dict))
+    with open(f, 'r') as dictfile:
+        dict = json.load(dictfile)
+    return dict
+
+def update_dict(filter):
+    dict_file = os.path.expanduser(filter["dict_filter"]["dict_file"])
+    with open(dict_file, 'w') as df:
+        df.write(json.dumps(filter["dict"]))
+    
+
+def parse_dict_filter(f):
+    filter = {
+        "name":"dictionary",
+        "filter": dict_filter,
+        "dirty": False,
+        "update": True,
+        "report": report_txt_dict
+        }
+    dict_string = tag_file.read().strip()
+    dict_json = json.loads(dict_string)
+    if "dict_file" not in dict_json:
+        raise "The Dict filter {} does not have the dict field.".format(dict_string)
+    if "update" in dict_json:
+        filter["update"] = dict_json["update"]
+    filter["dict_filter"] = dict_json
+    # load the dict
+    filter["dict"] = load_dict_file(os.path.expanduser(dict_json["dict_file"]))
+#    print(filter)
     return filter
 
 def parse_pos_filter(f):
@@ -156,6 +230,29 @@ def parse_suffix_tag(tag_string):
         ret[k] = True
     return ret
 
+def dict_entry_to_string(kd):
+    #{'word': '가능성', 'char': 'ko', 'explain': '가능성', 'from': 'zh', 'from_word': '可能性'}
+    # -> ko 가능성 zh 可能性
+    ret = ""
+    for k in ["char", "from", "explain", "from_word"]:
+        if k in kd:
+            ret += "{}\t".format(kd[k])
+        else:
+            ret += " \t"
+    return ret
+
+def report_txt_dict(wl, file_name):
+    keys = list(wl.keys())
+    keys.sort()
+    with open(file_name, 'w') as txt_file:
+        for k in keys:
+            count = wl[k]["count"]
+            l = "{}\t{}\t".format(k, count)
+            if 'dict' in wl[k]:
+                l += dict_entry_to_string(wl[k]['dict'])
+            txt_file.write(l+"\n")
+
+# report the virtual filter
 def report_txt_freq(freq, file_name):
     keys = list(freq.keys())
     keys.sort()
@@ -164,6 +261,7 @@ def report_txt_freq(freq, file_name):
             count = freq[k]["count"]
             from_list = freq[k]["from"]
             txt_file.write("{}\t{}\t{}\n".format(k, count, from_list))
+
 def report_csv_freq(freq, csv_file):
     keys = list(freq.keys())
     keys.sort()
@@ -178,7 +276,6 @@ def report_csv_freq(freq, csv_file):
             filewriter.writerow(row)
 
 if __name__ == '__main__':
-    #"는,은,도,이,가,나,를,을,과,와,의,지,져,자,고,까,에,게,겠,서,적,더,데,히,여,려,면,로,러,라,다,뿐,니,해,했,졌,었,였,았,됐,되,된,한,할,하다,하기,하지,하는,하고,하던,하면,으로,보다,처럼,부터,까지"
     if len(sys.argv) != 4:
         print("freq_filter.py source target filter")
     else:
@@ -198,5 +295,11 @@ if __name__ == '__main__':
             elif first_line.find("pos suffix filter") != -1:
                 filter = parse_pos_filter(tag_file)
                 new_table = filter["filter"](freq_table, filter)
-                report_txtfreq(new_table, sys.argv[2])
+                report_txt_freq(new_table, sys.argv[2])
+            elif first_line.find("dict filter") != -1:
+                filter = parse_dict_filter(tag_file)
+                new_table = filter["filter"](freq_table, filter)
+                filter["report"](new_table, sys.argv[2])
+
+
 

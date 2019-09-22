@@ -1,19 +1,9 @@
 * Usage
 Extract word frequencies from the text source:
-`python ../utils/count_freq.py ./yanbian-2009.json ./yanbian-2009-wordlist.txt`
+`python ../utils/count_freq.py ../data/yanbian-2019-1-9.json ./yanbian-2019-1-9-wordlist.txt`
 
-Filter out the virtual words:
-`python ../utils/freq-filter.py ./yanbian-2009-wordlist.txt ./yanbian-2009-processed-wordlist.txt ../utils/virtual-word.filter`
-
-Filter out the suffix:
-`python ../utils/freq-filter.py ./yanbian-2009-wordlist.txt ./yanbian-2009-processed-wordlist.txt ../utils/pos-suffix.filter`
-
-Match foreign words with the wordlist:
-`python ../utils/freq-filter.py ./yanbian-2009-processed-wordlist.txt ./yanbian-2009-foreign-wordlist.txt ../utils/foreign-word.filter`
-
-
-Extract, filter virtual workds, and match foreign words:
-`../utils/extract-wordlist.sh ./yanbian-2009.json`
+Filter out the suffix josa and verb suffixes:
+`python ../utils/freq_filter.py ./yanbian-2019-1-9-wordlist.txt ./yanbian-2019-1-9-nounlist.txt ../utils/pos-suffix.filter`
 
 Generate per-catalgoue article list, extract  filter virtual workds, and match foreign words:
 `../utils/extract-catalogue-wordlist.sh ./yanbian-2009.json`

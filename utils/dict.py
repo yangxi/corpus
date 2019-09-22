@@ -55,6 +55,7 @@ def report(dict_file):
         for k in k_dict:
             str = "{}\t".format(k)
             d = k_dict[k]
+            print(d)
             for i in ["char","from","explain","from_word"]:
                 if i in d:
                     str += "{}\t".format(d[i])
@@ -69,4 +70,4 @@ if __name__ == "__main__":
         add(os.path.expanduser(sys.argv[2]), os.path.expanduser(sys.argv[3]))
     elif sys.argv[1] == "report":
         report(os.path.expanduser(sys.argv[2]))
-        
+
