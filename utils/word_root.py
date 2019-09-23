@@ -142,14 +142,3 @@ def parse_line(content):
     view = mark_line(content_tags)
     return {"tags": content_tags, "view": view}
 
-def parse_article(source, index):
-    article = extract_article(source, index)
-    content = article["content"]
-    tag_content = parse_line(content)
-    print(tag_content["view"])
-
-
-
-if __name__ == '__main__':
-    usage="word_root.py source.json index"
-    parse_article(sys.argv[1], sys.argv[2])

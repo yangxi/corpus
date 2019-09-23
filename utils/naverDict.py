@@ -85,7 +85,6 @@ class NaverDict:
                 root_type = char_type_detect(root.text)
                 if root_type != 'en':
                     print("WARN: {} is not English".format(root.text))
-                    root_type = 'en'
                 d["root"] = (root.text, root_type)
             else:
                 root = title.find('span', {"class": "word_class2"})
@@ -94,7 +93,6 @@ class NaverDict:
                     root_type = char_type_detect(root.text)
                     if root_type != 'zh':
                         print("WARN: {} is not Chinese".format(root.text))
-                        root_type = 'zh'
                     d["root"] = (root.text, root_type)
             ret.append(d)
         return ret
