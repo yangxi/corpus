@@ -86,6 +86,7 @@ class YanbianDaily:
                 print("Got a newpage:{}", new_page)
                 self.pages[url] = new_page
                 self.pages_dirty = True
+                return new_page
             except Exception as exp:
                 print("Exception:{} while parsing url:{}".format(exp, url))
                 traceback.print_exc(file=sys.stdout)

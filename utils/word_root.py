@@ -49,7 +49,6 @@ def reconstruct_line(tl):
     tags = tl["tags"]
     ret = ""
     for t in tags:
-        print(t)
         ret += "{}{}".format(t["prefix"], t["word"])
     return ret
 
