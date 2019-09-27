@@ -30,10 +30,13 @@ def split_lines(p, line_length=50):
 
 
 def terminal_length(str):
-    width = 0
+    width = 0.0
     for c in str:
         if (unicodedata.east_asian_width(c) == 'W'):
-            width += 2
+            if char_type_detect(c) == 'ko':
+                width += 1.5
+            else:
+                width += 2
         else:
             width += 1
     return width
@@ -52,21 +55,27 @@ def reconstruct_line(tl):
         ret += "{}{}".format(t["prefix"], t["word"])
     return ret
 
-def mark_line(tl, line_length = 80):
+def mark_line(tl, line_length = 90):
     cur = 0
     tags = tl["tags"]
     curr_line = ""
     curr_mark = ""
+    l_cursor = 0.0
+    m_cursor = 0.0
     ret = ""
     for t in tags:
-        view = view_tag(t)
-        curr_line += view[0]
-        curr_mark += view[1]
-        if len(curr_mark) > line_length:
+        view = view_tag(t, l_cursor, m_cursor)
+        curr_line += view[0]["view"]
+        l_cursor = view[0]["cursor"]
+        curr_mark += view[1]["view"]
+        m_cursor = view[1]["cursor"]
+        if m_cursor > line_length:
             ret += curr_line + "\n"
             ret += curr_mark + "\n"
             curr_line = ""
             curr_mark = ""
+            l_cursor = 0.0
+            m_cursor = 0.0
     if curr_mark != "":
         ret += curr_line + "\n"
         ret += curr_mark + "\n"
@@ -124,16 +133,45 @@ def tag_line(l):
     kd.update()
     return ret
 
+def get_width(w, l_cursor, m_cursor):
+    if l_cursor > m_cursor or m_cursor - l_cursor > 1:
+        print('WARN: l_cursor is a head of m_cursor:{} {}'.format(l_cursor, m_cursor))
+    #print("Analyze {} {} {}".format(w, l_cursor, m_cursor))
+    l_width = terminal_length(w)
+    if l_width == 0:
+        return [0, 0]
+    gap = m_cursor - l_cursor
+    m_width = l_width - gap
+    if not m_width.is_integer():
+        m_width = int(m_width) + 1
+    return [l_width, int(m_width)]
+
+
 # return ["t["prefix"]t["word"]", ".....c....."]
-def view_tag(t):
-    l = "{}{}".format(t["prefix"],t["word"])
-    prefix_u = '.'*terminal_length(t["prefix"])
-    word_u = '.'*(terminal_length(t["word"]) - 1)
+def view_tag(t, l_cursor, m_cursor):
+
+    gap = m_cursor - l_cursor
+    words = [t["prefix"], t["word"]]
+    l = ""
+    m = ""
+    prefix = t["prefix"]
+    word = t["word"]
+
+    widths = get_width(prefix, l_cursor, m_cursor)
+    l += '{}'.format(prefix)
+    l_cursor += widths[0]
+    m += '.'*widths[1]
+    m_cursor += widths[1]
+
+    widths = get_width(word, l_cursor, m_cursor)
+    l += '{}'.format(word)
+    l_cursor += widths[0]
     marker = '.'
     if (t["class"] == 'Noun' or t["class"] == 'Verb') and t["type"] == "ko":
         marker = t["root"]
-    m = "{}{}{}".format(prefix_u, marker, word_u)
-    return [l,m]
+    m += "{}{}".format(marker, '.'*(widths[1]-1))
+    m_cursor += widths[1]
+    return [{"view":l,"cursor":l_cursor}, {"view":m,"cursor":m_cursor}]
 
 def parse_line(content):
     content_tags = tag_line(content)

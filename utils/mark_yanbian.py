@@ -10,7 +10,7 @@ def get_output_name(article):
         catalogue = "unknown"
     title = article["title"]
     date = article["date"]
-    return "{}-{}-{}".format(catalogue, date, title)
+    return "{}-{}-{}.txt".format(catalogue.strip(), date.strip(), title.strip())
 
 def get_root_usage(tag):
     nouns = {"total":0, "k":0, "c":0, "e":0, "o": 0}
@@ -50,8 +50,8 @@ def get_root_usage(tag):
                 nr_unknown += 1
     ret += "Korean:{} Chinese:{} English:{} Japaness:{} Unknown:{}\n".format(nr_korean, nr_chinese, nr_english, nr_jp, nr_unknown)
     ret += "TotalKorean:{} k:{} c:{} e:{} o:{}\n".format(totals["total"], totals["k"], totals["c"], totals["e"], totals["o"])
-    ret += "Nouns      :{} k:{} c:{} e:{} o:{}\n".format(totals["total"], totals["k"], totals["c"], totals["e"], totals["o"])
-    ret += "Verbs      :{} K:{} c:{} e:{} o:{}\n".format(totals["total"], totals["k"], totals["c"], totals["e"], totals["o"])
+    ret += "Nouns      :{} k:{} c:{} e:{} o:{}\n".format(nouns["total"], nouns["k"], nouns["c"], nouns["e"], nouns["o"])
+    ret += "Verbs      :{} K:{} c:{} e:{} o:{}\n".format(verbs["total"], verbs["k"], verbs["c"], verbs["e"], verbs["o"])
     return ret
 
 def parse_article(url, outputfile=None):
@@ -75,6 +75,7 @@ def parse_article(url, outputfile=None):
 
     print(output)
     with open(outputfile,'w') as outf:
+        print("Write the view to file:{}".format(outputfile))
         outf.write(output)
 
 if __name__ == '__main__':
