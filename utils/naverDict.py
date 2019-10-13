@@ -3,6 +3,7 @@ import os
 import json
 from bs4 import BeautifulSoup
 import requests
+import time
 from utils import char_type_detect
 
 
@@ -33,7 +34,7 @@ class NaverDict:
         with open(self.dict_file, 'w') as df:
             df.write(json.dumps(self.kr_dict))
             self.dict_dirty = False
-    def parser_naver_html(self, kw, naver_page = None):
+    def parser_naver_html(self, kw, naver_page = None, wait_on_block = False):
         if naver_page == None:
             if self.blocked == True:
                 now = datetime.datetime.now()
@@ -42,7 +43,12 @@ class NaverDict:
                     self.blocked_time = None
                     self.unblocked_time = None
                 else:
-                    raise Exception("Service is blocked until {}".format(self.unblocked_time))
+                    if wait_on_block:
+                        nr_seconds = (self.unblocked_time - now).seconds
+                        print("Plan to sleep {} seconds".format(nr_seconds))
+                        time.sleep(nr_seconds)
+                    else:
+                        raise Exception("Service is blocked until {}".format(self.unblocked_time))
             url = "https://dict.naver.com/search.nhn?dicQuery={}".format(kw)
             r = requests.post(url, timeout=5)
             if (r.text.find('Service access is temporarily blocked') != -1):
@@ -101,7 +107,7 @@ class NaverDict:
         if kw in self.kr_dict:
             return self.kr_dict[kw]
         else:
-            newWord = self.parser_naver_html(kw)
+            newWord = self.parser_naver_html(kw, wait_on_block = True)
             if len(newWord) > 0:
                 self.kr_dict[kw] = newWord
                 self.dict_dirty = True

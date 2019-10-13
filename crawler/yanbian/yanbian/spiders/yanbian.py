@@ -39,6 +39,7 @@ class YanbianSpider(scrapy.Spider):
     init_pages = []
     def __init__(self, task=None, *args, **kwargs):
         super(YanbianSpider, self).__init__(*args, **kwargs)
+        print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX receive task".format(task))
         if task:
             if task.endswith('.json'):
                 # [{"url":"http://xxx", "start_page":number, "end_page":number}...]
@@ -51,16 +52,16 @@ class YanbianSpider(scrapy.Spider):
                         t = l.split(' ')
                         p_url = t[0]
                         if not p_url.startswith("http://"):
-                            printf("Task file is not in right format, wrong url:{}".format(p_url))
+                            print("Task file is not in right format, wrong url:{}".format(p_url))
                             exit(1)
                         s_p = int(t[1])
                         e_p = int(t[2])
                         if e_p < s_p:
-                            printf("task file is not in right format, end_page is smaller than start_page: {} < {}".format(e_p,s_p))
+                            print("task file is not in right format, end_page is smaller than start_page: {} < {}".format(e_p,s_p))
                             exit(1)
                         self.init_pages.append({"url":p_url, "start_page":s_p, "end_page":e_p})
         else:
-            printf("scrapy crawl yanbian -o task=./INITPAGE.json")
+            print("scrapy crawl yanbian -o task=./INITPAGE.json")
             exit(1)
 
     pages = {
