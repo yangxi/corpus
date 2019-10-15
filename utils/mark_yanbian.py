@@ -22,6 +22,8 @@ def get_root_usage(tag):
     nr_jp = 0
     nr_unknown = 0
     ret = ""
+    kr_eng_list = []
+    kr_ch_list = []
     for t in tag["tags"]["tags"]:
         if t["class"] == 'Noun' or t["class"] == 'Verb':
             if t["type"] == "ko":
@@ -36,6 +38,10 @@ def get_root_usage(tag):
                 if "root" in t:
                     r = t["root"]
                     totals[r] += 1
+                    if r == "e":
+                        kr_eng_list.append(t["word"])
+                    elif r == 'c':
+                        kr_ch_list.append(t["word"])
                     if t["class"] == 'Noun':
                         nouns[r] += 1
                     elif t["class"] == "Verb":
@@ -52,16 +58,23 @@ def get_root_usage(tag):
     ret += "TotalKorean:{} k:{} c:{} e:{} o:{}\n".format(totals["total"], totals["k"], totals["c"], totals["e"], totals["o"])
     ret += "Nouns      :{} k:{} c:{} e:{} o:{}\n".format(nouns["total"], nouns["k"], nouns["c"], nouns["e"], nouns["o"])
     ret += "Verbs      :{} K:{} c:{} e:{} o:{}\n".format(verbs["total"], verbs["k"], verbs["c"], verbs["e"], verbs["o"])
+    ret += "EnglishRoot:{}\n".format(kr_eng_list)
+    ret += "ChineseRoot:{}\n".format(kr_ch_list)
     return ret
 
 def parse_article(url, outputfile=None):
     yanbian = YanbianDaily()
     article = yanbian.search_page(url)
+    if "yanbian_root_tag" not in article:
+        title = article["title"]
+        content = article["content"]
+        tag_title = parse_line(title)
+        tag_content = parse_line(content)
+        article["yanbian_root_tag"] = {"title": tag_title, "content": tag_content}
+        yanbian.pages_dirty = True
+    tag_title = article["yanbian_root_tag"]["title"]
+    tag_content = article["yanbian_root_tag"]["content"]
     yanbian.update_pages()
-    title = article["title"]
-    content = article["content"]
-    tag_title = parse_line(title)
-    tag_content = parse_line(content)
     if outputfile == None:
         outputfile = get_output_name(article)
     output = ""
@@ -72,7 +85,10 @@ def parse_article(url, outputfile=None):
     output += "=============================\n"
     output += get_root_usage(tag_content)
     output += tag_content["view"]
-
+    # output += "=============================\n"
+    # output += "{}".format(tag_title)
+    # output += "=============================\n"
+    # output += "{}".format(tag_content)
     print(output)
     with open(outputfile,'w') as outf:
         print("Write the view to file:{}".format(outputfile))
