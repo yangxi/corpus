@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/25/59_374437.html
+=============================
+Korean:12 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:12 k:2 c:9 e:1 o:0
+Nouns      :12 k:2 c:9 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['센터']
+ChineseRoot:['중화인민공화국', '창건', '경축', '행사', '보도', '기자회견', '거행', '연변', '일보']
+중화인민공화국 창건 70돐 경축행사 보도센터  첫 기자회견 거행-연변일보 Yanbian Daily
+c...........c.....k.c..c...c..e....k..c......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/30/59_375240.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:0 c:8 e:0 o:0
+Nouns      :8 k:0 c:8 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['고속', '철도', '종업원', '애국', '가곡', '창', '연변', '일보']
+고속철도 종업원들이 애국가곡을 열창-연변일보 Yanbian Daily
+c..c...c........c..c......c.c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

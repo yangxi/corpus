@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/14/59_372989.html
+=============================
+Korean:14 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:14 k:3 c:11 e:0 o:0
+Nouns      :14 k:3 c:11 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['남녕', '세관', '여건', '동물', '제품', '수입', '밀수', '사건', '해명', '연변', '일보']
+남녕 세관에서 300여건의 멸종위기 동물 및 그 제품 수입밀수 사건을 해명-연변일보 Yanbian Daily
+c...c.........c.....k......c...k.k..c...c..c...c....c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]
