@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/09/59_375948.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:0 c:8 e:0 o:0
+Nouns      :8 k:0 c:8 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['무한', '사항', '장강', '대교', '정식', '개통', '연변', '일보']
+무한 양사항 장강대교 정식 개통-연변일보 Yanbian Daily
+c.....c...c..c...c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

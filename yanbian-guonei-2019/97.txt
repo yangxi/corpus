@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/19/59_373595.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:1 c:4 e:0 o:1
+Nouns      :6 k:1 c:4 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['공식', '방문', '연변', '일보']
+리극강 로씨야 공식방문-연변일보 Yanbian Daily
+o.....k....c..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

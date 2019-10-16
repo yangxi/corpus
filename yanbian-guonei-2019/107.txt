@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/10/59_372461.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:1 c:9 e:0 o:0
+Nouns      :10 k:1 c:9 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['전국', '소수민족', '전통', '체육', '경기', '대회', '개막', '연변', '일보']
+제11회 전국 소수민족 전통체육 경기대회 개막-연변일보 Yanbian Daily
+k.....c...c......c..c...c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

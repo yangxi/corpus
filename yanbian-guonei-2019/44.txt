@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/10/59_376102.html
+=============================
+Korean:13 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:13 k:2 c:8 e:0 o:3
+Nouns      :13 k:2 c:8 e:0 o:3
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['평원', '사업', '광서', '관', '양현', '촌', '연변', '일보']
+원륭평원사사업소 광서 관양현 신우진 소룡촌서 제막-연변일보 Yanbian Daily
+..oc....c..k.c...c.c...o....o..c.....k.c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]
