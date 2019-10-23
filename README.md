@@ -11,3 +11,7 @@ Create a new task file `source.task` in the data directory:
 Crawl and parse the page
 `./utils/crawl-and-parse.sh data-name`
 
+Requirements:
+pip install pandas
+pip install xlrd
+pip install openpyxl
