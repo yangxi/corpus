@@ -11,3 +11,10 @@ Create a new task file `source.task` in the data directory:
 Crawl and parse the page
 `./utils/crawl-and-parse.sh data-name`
 
+Transform word lists
+`python ./utils/excel_trans.py EXCEL_FILE`
+
+Requirements:
+pip install pandas
+pip install xlrd
+pip install openpyxl
