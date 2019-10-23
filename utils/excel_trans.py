@@ -21,6 +21,7 @@ def merge_word_list(list, key):
             words = ast.literal_eval(r)
             for w in words:
                 thelist.append(w)
+    thelist = sorted(set(thelist))
     return DataFrame({key: thelist})
 
 def trans_word_list(list, key_prefix):
@@ -31,6 +32,7 @@ def trans_word_list(list, key_prefix):
         if r and str(r).startswith('['):
             r = str(r)
             c = ast.literal_eval(r)
+            c = sorted(set(c))
             if len(c) > max_line:
                 max_line = len(c)
             c_name = "{}_{}".format(key_prefix, i)
