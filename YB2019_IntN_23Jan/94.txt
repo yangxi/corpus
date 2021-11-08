@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/29/60_366411.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:2 c:4 e:0 o:0
+Nouns      :6 k:2 c:4 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['피해', '해변', '연변', '일보']
+무더위 피해 해변가로-연변일보 Yanbian Daily
+k.....c...c..k...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/31/60_371292.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:9 e:1 o:0
+Nouns      :10 k:0 c:9 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['모스크바']
+ChineseRoot:['국제', '항공우주', '전시회', '중국', '업체', '개', '참가', '연변', '일보']
+모스크바국제항공우주전시회 중국 업체 17개  참가-연변일보 Yanbian Daily
+e.....c..c.....c.....c...c.....c..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

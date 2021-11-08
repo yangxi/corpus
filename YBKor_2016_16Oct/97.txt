@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/news/content/2016-01/25/61_39267.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:0 c:6 e:0 o:1
+Nouns      :7 k:0 c:6 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['평양', '만경대', '소년', '궁', '취미', '활동']
+조선학생들 평양만경대소년궁에서 취미활동
+..o......c..c...c..c.....c..c..
+=============================
+Korean:25 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:25 k:4 c:17 e:0 o:4
+Nouns      :22 k:2 c:17 e:0 o:3
+Verbs      :3 K:2 c:0 e:0 o:1
+EnglishRoot:[]
+ChineseRoot:['평양', '만경대', '소년', '궁', '무용', '배구', '풍금', '등', '활동', '참여', '일반', '학업', '소년', '궁', '취미', '활동', '신화']
+1월 18일부터 조선학생들이 평양만경대소년궁에서 무용, 배구, 손풍금 등 여러가지 활동에 참여하고있다. 조선학생들은 일반
+.............o.......c..c....c..c....c....c....k.c...c.o......c.....c..o........o........c..
+적으로 학업이 끝나면 소년궁에서 취미활동을 한다.신화넷
+......c....k.....c..c....c..c.....k...c..k

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/15/60_376887.html
+=============================
+Korean:12 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:12 k:2 c:9 e:1 o:0
+Nouns      :12 k:2 c:9 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['스마트폰']
+ChineseRoot:['영화', '중', '인', '문명', '고국', '교류', '활발', '연변', '일보']
+영화·요가·스마트폰—중·인 두 문명고국 교류 활발-연변일보 Yanbian Daily
+c...k...e......c..c.k..c..c...c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

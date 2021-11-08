@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/14/60_373001.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:9 e:1 o:0
+Nouns      :10 k:0 c:9 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['이집트']
+ChineseRoot:['중국', '기업', '사하라', '국제', '농업', '박람회', '참가', '연변', '일보']
+중국기업 이집트사하라국제농업박람회에 참가-연변일보 Yanbian Daily
+c..c...e....c...c..c..c......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

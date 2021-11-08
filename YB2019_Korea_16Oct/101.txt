@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/news/content/2019-06/21/61_361373.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:1 c:5 e:0 o:1
+Nouns      :6 k:0 c:5 e:0 o:1
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['전용기', '주석', '부부', '연변', '일보']
+전용기에서 내리는 습근평 주석 부부-연변일보 Yanbian Daily
+c........k....o.....c...c...c..c................
+=============================
+Korean:18 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:18 k:3 c:13 e:0 o:2
+Nouns      :16 k:1 c:13 e:0 o:2
+Verbs      :2 K:2 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '국빈', '방문', '국가주석', '부인', '녀', '사가', '평양', '순안', '공항', '도착', '전용기', '인사']
+조선을 국빈 방문한 습근평(왼쪽) 국가주석과 부인 팽려원 녀사가 20일 평양 순안 공항에 도착해 전용기에서 내리며 인사하고
+c.....c...c....o.....k....c.......c...o.....cc........c...c...c....c..k..c.......k.....c.....
+ 있다.
+.....

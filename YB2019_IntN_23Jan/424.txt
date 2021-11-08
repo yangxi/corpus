@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/24/60_370310.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:8 e:1 o:0
+Nouns      :9 k:0 c:8 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['폴란드']
+ChineseRoot:['파산', '기업', '중국', '투자', '덕', '회생', '연변', '일보']
+폴란드 파산기업 중국투자 덕에 회생-연변일보 Yanbian Daily
+e.....c..c...c..c...c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

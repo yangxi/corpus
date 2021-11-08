@@ -1,0 +1,23 @@
+url:http://www.iybrb.com/civ/content/2007-04/20/27_53521.html
+=============================
+Korean:2 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:2 k:1 c:1 e:0 o:0
+Nouns      :2 k:1 c:1 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 만남
+.c...k..
+=============================
+Korean:44 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:44 k:34 c:9 e:1 o:0
+Nouns      :33 k:24 c:8 e:1 o:0
+Verbs      :11 K:10 c:1 e:0 o:0
+EnglishRoot:['보이']
+ChineseRoot:['누우', '누우', '정수리', '벽', '창밖', '별', '자란', '고목', '죽']
+가로 누우나 세로 누우나 정수리와 발바닥이 벽에 붙기는 마찬가지다창밖으로 별을 보던 애비의 입가에 반디불이 보이면 새우
+k...c.....k...c....c......k......c...k.....k......c......c...k...k.....k....k..k...e.....k..
+처럼 돌아눕는 아들 손이 거칠게 자란 아들이 늘 안쓰러운 애비의 하소연은 고목에 바람이 스치는 소리다애비를 닮은 아들의
+....k..k...k...k...k.....c...k....k.........k....k......c.....k....k.....k...k.....k...k...
+ 못난 더벅머리 젖은 베개우에서숨소리 죽이고 가슴 앓는다.
+.k...k......k...k.k.....k....c.....k...k....

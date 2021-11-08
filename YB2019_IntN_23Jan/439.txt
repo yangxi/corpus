@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/10/60_368168.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:7 e:3 o:0
+Nouns      :10 k:0 c:7 e:3 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['아프가니스탄', '카불', '테로']
+ChineseRoot:['차량', '폭발', '발생', '명', '부상', '연변', '일보']
+아프가니스탄 카불 차량폭발테로 발생 95명 부상-연변일보 Yanbian Daily
+e.........e...c..c..e...c.....c..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

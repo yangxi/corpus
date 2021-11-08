@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/sport/content/2016-04/25/35_68155.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:1 c:3 e:2 o:1
+Nouns      :7 k:1 c:3 e:2 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['슈퍼리그', '라운드']
+ChineseRoot:['중국', '경기', '결과']
+2016 중국 슈퍼리그 제6라운드 경기결과, 순위표
+.....c...e......k..e....c..c....o....
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:1 c:3 e:2 o:1
+Nouns      :7 k:1 c:3 e:2 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['슈퍼리그', '라운드']
+ChineseRoot:['중국', '경기', '결과']
+2016 중국 슈퍼리그 제6라운드 경기결과, 순위표
+.....c...e......k..e....c..c....o....

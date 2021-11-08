@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/soc/content/2013-10/31/21_45933.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:1 c:6 e:1 o:0
+Nouns      :8 k:1 c:6 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['카드']
+ChineseRoot:['도문시', '위생', '농민', '무료', '건강검진', '발급']
+도문시위생국 농민들에게 무료건강검진카드 발급
+c....c..k.c........c..c.....e...c..
+=============================
+Korean:21 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:21 k:4 c:15 e:1 o:1
+Nouns      :18 k:2 c:14 e:1 o:1
+Verbs      :3 K:2 c:1 e:0 o:0
+EnglishRoot:['카드']
+ChineseRoot:['일전', '도문시', '위생', '의료', '조직', '하여', '진', '농민', '무료', '건강검진', '발급', '환자', '진료', '오정', '정권']
+일전 도문시위생국에서는 의료일군들을 조직하여 석현진 동흥촌의 농민들을 찾아 무료건강검진카드를 발급하고 환자들을 진료
+c...c....c..k......c..k......c..c......c...o....c......k...c..c.....e.....c......c......c..
+하였다.   오정 구정권
+k........c....c..

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2020-02/25/26_396525.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:3 e:0 o:0
+Nouns      :4 k:1 c:3 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['방법', '연변', '일보']
+몇가지 방법이 있을가?-연변일보 Yanbian Daily
+..k...c...........c..c................
+=============================
+Korean:30 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:30 k:15 c:15 e:0 o:0
+Nouns      :24 k:10 c:14 e:0 o:0
+Verbs      :6 K:5 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['문제', '출발', '이동', '세번', '이동해', '지나', '개', '가', '단', '조합', '방향', '경로', '인정', '경로', '일가']
+[문제] 한가운데 원 4에서 출발해 맞닿아 있는 원으로 이동한다. 이때 세번 이동해서 지나온 수자 네개를 더해서 15가 나와야
+.c....k......k.......c..k.k.........k....c.........k.c...c......c..k..k....c...........c.k....
+ 한다. 단 수자 조합이 같더라도 방향이 다르면 다른 경로로 인정한다. 가능한 경로는 모두 몇가지일가?
+.k....c..k...c...........c..........k...c.....c..k.........c.....k....k..c...

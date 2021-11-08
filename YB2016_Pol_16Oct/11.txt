@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/pol/content/2016-09/26/15_10334.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:10 e:0 o:0
+Nouns      :10 k:0 c:10 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['연변', '조선족', '자치주', '인대', '상무', '위원회', '사직', '청구인', '비준', '명단']
+연변조선족자치주인대 상무위원회 사직청구인원 비준 명단
+c..c....c...c...c..c.....c..c......c...c..
+=============================
+Korean:18 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:18 k:0 c:15 e:0 o:3
+Nouns      :18 k:0 c:15 e:0 o:3
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['충', '검찰', '검찰', '직무', '사직', '정봉', '검찰', '검찰', '직무', '사직', '창해', '검찰', '검찰', '직무', '사직']
+1. 조백충 돈화시검찰원 검찰장직무 사직.2. 정봉 왕청현검찰원 검찰장직무 사직.3. 문창해 화룡시검찰원 검찰장직무 사직
+......c..o...c.....c...c...c......c...o....c....c....c...c.......c...o....c....c....c...c..
+.
+.

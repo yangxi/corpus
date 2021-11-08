@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/civ/content/2007-03/12/27_53499.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:3 e:0 o:0
+Nouns      :3 k:0 c:3 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시', '내', '고향']
+[시] 내가 살던 고향
+.c...c...k...c..
+=============================
+Korean:17 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:17 k:12 c:3 e:0 o:2
+Nouns      :12 k:8 c:2 e:0 o:2
+Verbs      :5 K:4 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['와서', '노니', '질']
+뉘웃이 드러눕는 멧산 와서, 구름 노니고 먼데 달구지 삐걱이면 컹—컹 솟는 누렁이 잦은 꼬리질에 달이 뜬다.
+o.....k......o...c....k...c........k.....k......k.k..k...k....k...k..c...k...k...

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/04/60_371710.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:0 c:7 e:1 o:0
+Nouns      :8 k:0 c:7 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['벨기에']
+ChineseRoot:['해방', '주년', '경축', '활동', '전개', '연변', '일보']
+벨기에 해방 75주년경축활동 전개-연변일보 Yanbian Daily
+e.....c.....c..c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

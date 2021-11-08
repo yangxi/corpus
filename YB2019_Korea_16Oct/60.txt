@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/news/content/2019-06/21/61_361371.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:1 c:7 e:0 o:0
+Nouns      :7 k:0 c:7 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['금수산태양궁전', '광장', '중', '조', '정상', '연변', '일보']
+금수산태양궁전 광장 지나는 중-조 정상-연변일보 Yanbian Daily
+c...........c...k....c..c.c...c..c................
+=============================
+Korean:17 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:17 k:4 c:12 e:0 o:1
+Nouns      :15 k:2 c:12 e:0 o:1
+Verbs      :2 K:2 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '국빈', '방문', '국가주석', '조선', '국무위원', '차', '금수산태양궁전', '광장', '환영', '인파', '답례']
+조선을 국빈 방문한 습근평 국가주석은 20일 김정은 조선 국무위원장과 함께 무개차에 올라 금수산태양궁전 광장을 지나며 환영
+c.....c...c....o.....c............k....c...c.............k..c...k...c...........c....k.....c..
+인파에 답례하고 있다.
+c.....c..........

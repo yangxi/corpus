@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/24/60_365771.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:1 c:7 e:1 o:0
+Nouns      :9 k:1 c:7 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['뉴욕']
+ChineseRoot:['중국', '방직', '복장', '무역전시회', '개막', '연변', '일보']
+중국방직품복장무역전시회 뉴욕에서 개막-연변일보 Yanbian Daily
+c..c..k.c..c.......e......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/news/content/2016-11/28/61_39381.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:1 c:5 e:0 o:0
+Nouns      :6 k:1 c:5 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '북부', '재해', '군중', '이사']
+조선 북부 재해군중 새집으로 이사
+c...c...c..c...k......c..
+=============================
+Korean:17 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:17 k:5 c:11 e:0 o:1
+Nouns      :14 k:4 c:10 e:0 o:0
+Verbs      :3 K:1 c:1 e:0 o:1
+EnglishRoot:[]
+ChineseRoot:['조선', '북부', '수해', '피해', '지역', '호가', '주택', '완공', '하여', '최근', '신화']
+조선 북부 수해피해지역은 두달내에 적어도 1만 9000호가 입주할수 있는 새 주택을 완공하여 최근에 새집들이를 했다.신화
+c...c...c..c..c......k..................c......o.......k.c.....c..c...c......k......k...c..
+넷
+k.

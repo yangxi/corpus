@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/20/60_369722.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:1 c:5 e:1 o:0
+Nouns      :7 k:1 c:5 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['아프가니스탄']
+ChineseRoot:['백년', '독립', '경축', '연변', '일보']
+아프가니스탄 백년 독립일 경축-연변일보 Yanbian Daily
+e.........c...c..k..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

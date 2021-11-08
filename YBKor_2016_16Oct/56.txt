@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/news/content/2016-07/18/61_39338.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:0 c:4 e:0 o:0
+Nouns      :4 k:0 c:4 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '편', '교재', '공개']
+조선 신편교재 공개
+c.....cc...c..
+=============================
+Korean:17 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:17 k:3 c:14 e:0 o:0
+Nouns      :15 k:1 c:14 e:0 o:0
+Verbs      :2 K:2 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['일전', '조선', '편', '교재', '공개', '편', '교재', '영어', '교육', '예술', '등', '과목', '증가', '동방']
+일전 조선에서 신편교재를 공개했다. 신편교재에는 영어교육과 예술 등 과목들이 증가되였다.동방넷
+c...c........cc.....c..k.....c.c......c..c....c...c..c......c..k....c..k.

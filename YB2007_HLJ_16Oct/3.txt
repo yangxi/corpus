@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-09/07/27_53566.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:3 e:0 o:0
+Nouns      :3 k:0 c:3 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시', '제목', '시']
+[시] 제목을 못찾은 시
+.c...c......k...c
+=============================
+Korean:33 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:33 k:27 c:6 e:0 o:0
+Nouns      :23 k:18 c:5 e:0 o:0
+Verbs      :10 K:9 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['자기', '귀', '털어건', '방', '평화', '죽']
+파리 한마리붕붕 날개를 불며황소의 머리에 앉았다황소가 머리를숙였다 들었다 하니깐자기 무게때문이라고파리는 생각한다 하지만
+k.....k..k...k....k..k.....k....k....k....k....k....k.....k..kc...k..k.......k....k..k........
+ 황소는꼬리를 저어 귀를 털어건방든 파리를그저 쫓을뿐평화를 즐기며죽이지 않는다.
+.k....k....k...c...c....c...k.......k..k.c....k....c....k.....

@@ -1,0 +1,23 @@
+url:http://www.iybrb.com/civ/content/2016-03/31/27_54732.html
+=============================
+Korean:3 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:3 k:2 c:1 e:0 o:0
+Nouns      :3 k:2 c:1 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['목련']
+겨울비속의 목련
+k....k...c..
+=============================
+Korean:41 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:41 k:31 c:5 e:0 o:5
+Nouns      :23 k:17 c:3 e:0 o:3
+Verbs      :18 K:14 c:2 e:0 o:2
+EnglishRoot:[]
+ChineseRoot:['계절', '전', '귀', '열고있구나', '둔']
+계절을 잊었나봐후줄근 젖으며외로이 피고있구나꼭 다문 입술 무슨 말 전할가파리한 입술 스치는애달픔의  그림자먹먹한 가슴
+c.....k...k.o....k.........k.......k.k...k...k...k..c.........k...k...........k....ko...k..
+에 목이 메인다떨고있는 꽃잎비소리에 귀 기울이며발자국소리 듣고파빠끔히 열고있구나흐느끼며 비워둔 자리앙상한 가지로 텅비
+...k...k...o......k..k.k....c..k.....k...k...k..o..k...c.......kk.....k..c.k........k....o..
+여내 속살이 차갑게 떨린다.
+......k........k.....

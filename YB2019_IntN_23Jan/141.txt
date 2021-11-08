@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-11/14/60_380783.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:8 e:2 o:0
+Nouns      :10 k:0 c:8 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['스리랑카', '콜롬보']
+ChineseRoot:['광명', '행', '공익', '의료', '활동', '개최', '연변', '일보']
+스리랑카 광명행 공익의료활동 콜롬보서 개최-연변일보 Yanbian Daily
+e......c..c..c..c..c...e......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

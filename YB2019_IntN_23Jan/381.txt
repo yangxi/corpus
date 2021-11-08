@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/07/60_372190.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:3 c:4 e:0 o:0
+Nouns      :6 k:2 c:4 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['중국', '문화', '연변', '일보']
+벨라루씨 “중국 문화의 날” 펼쳐-연변일보 Yanbian Daily
+k.......c...c.....k..k...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

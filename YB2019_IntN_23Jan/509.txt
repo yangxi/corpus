@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-11/19/60_381478.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:9 e:1 o:0
+Nouns      :10 k:0 c:9 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['타이']
+ChineseRoot:['중국', '군수', '산업', '국제', '수산업', '전시회', '참가', '연변', '일보']
+‘중국 군수산업’ 2019년 타이 국제군수산업전시회에 참가-연변일보 Yanbian Daily
+.c...c..c...........e...c...c....c......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

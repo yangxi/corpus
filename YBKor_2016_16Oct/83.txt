@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/news/content/2016-06/07/61_39312.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:0 c:4 e:1 o:2
+Nouns      :7 k:0 c:4 e:1 o:2
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['프랑스']
+ChineseRoot:['대통령', '한국', '대통령', '회견']
+프랑스대통령 올랑드, 한국대통령 박근혜 회견
+e....c....o......c..c....o.....c..
+=============================
+Korean:14 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:14 k:1 c:8 e:2 o:3
+Nouns      :13 k:0 c:8 e:2 o:3
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:['프랑스', '프랑스']
+ChineseRoot:['대통령', '현재', '공식', '방문', '한국', '대통령', '회견', '신화사']
+6월 3일, 프랑스대통령 올랑드가 빠리에서 현재 프랑스를 공식 방문중인 한국대통령  박근혜를 회견했다.신화사
+........e....c....o......o......c...e......c...c......c..c......o......c..k...c...

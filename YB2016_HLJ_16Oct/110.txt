@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2016-03/31/27_54730.html
+=============================
+Korean:1 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:1 k:1 c:0 e:0 o:0
+Nouns      :1 k:1 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]
+싹
+k.
+=============================
+Korean:20 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:20 k:19 c:1 e:0 o:0
+Nouns      :13 k:12 c:1 e:0 o:0
+Verbs      :7 K:7 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['흙층']
+이쪽에서도저쪽에서도눈 뜨기 바쁜애들하얗게 노랗게또 파랗게후끈 달아 오르는손가락스스로 속살 헤치며흙층 뚫고 나와봄을 주무른다
+..k.....k......k..k......k............k......k...k...k...k....k......k.k....c...k...k..k...k.....
+해빛을 훔친다.
+k.....k....

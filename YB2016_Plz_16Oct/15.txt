@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/pla/content/2015-04/10/47_87014.html
+=============================
+Korean:5 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:5 k:3 c:2 e:0 o:0
+Nouns      :4 k:2 c:2 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시', '방지']
+김치 빨리 시는것 방지하려면
+k.......c..k..c..k...
+=============================
+Korean:24 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:24 k:14 c:9 e:1 o:0
+Nouns      :17 k:8 c:8 e:1 o:0
+Verbs      :7 K:6 c:1 e:0 o:0
+EnglishRoot:['칼슘']
+ChineseRoot:['등', '가제', '수건', '두면', '성분', '젖산', '중화', '시지', '종합']
+달걀 껍데기나 게·조개 껍데기 등을 깨끗하게 씻어 가제수건에 잘 싸서 김치 사이에 넣어두면 칼슘성분이 젖산을 중화시켜 김치
+k...k......k..k...k....c..........k...c..c.....k.k...k...k.....k..c...e..c....c.....c..k...k..
+가 빨리 시지 않는다.종합
+.......c...k....c..

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/08/60_375846.html
+=============================
+Korean:11 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:11 k:0 c:9 e:1 o:1
+Nouns      :11 k:0 c:9 e:1 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['앙골라']
+ChineseRoot:['중국', '기업', '건설', '철도', '정부', '정식', '인계', '연변', '일보']
+중국기업 건설한 벵겔라철도, 앙골라 정부에 정식 인계-연변일보 Yanbian Daily
+c..c...c.....o...c....e.....c....c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

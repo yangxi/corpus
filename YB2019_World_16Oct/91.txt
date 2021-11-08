@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/18/60_373555.html
+=============================
+Korean:5 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:5 k:0 c:4 e:1 o:0
+Nouns      :5 k:0 c:4 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['엘살바도르']
+ChineseRoot:['독립기념일', '경축', '연변', '일보']
+엘살바도르 독립기념일 경축-연변일보 Yanbian Daily
+e........c.......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-04/20/27_53518.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:3 c:1 e:0 o:0
+Nouns      :2 k:1 c:1 e:0 o:0
+Verbs      :2 K:2 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 삶은 닭알을 먹으며
+.c...k...k....k....
+=============================
+Korean:34 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:34 k:24 c:6 e:0 o:4
+Nouns      :23 k:17 c:6 e:0 o:0
+Verbs      :11 K:7 c:0 e:0 o:4
+EnglishRoot:[]
+ChineseRoot:['후세', '전', '천만', '건배', '래일', '안주']
+딱딱한 옷 홀랑 벗기고덥석,여리고 하얀 속살 물어떼니이새에서 삐악 삐악 처량한 병아리 울음소리가 씹히운다 오늘 먹는 닭알
+......k.k...k....k...k..........k.k..o....k....k...k.........k....k........o......k...k...k..
+ 한알이후세에 전해줄 천만마리 닭이란걸 잊은채우리들은 즐겁게 건배하며 래일을 안주해 먹고있다.
+...k..c....c.o...c..k...k...k..k..k...k.........c..k...c....c..k..o......

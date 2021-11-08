@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-11/27/60_382371.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:8 e:1 o:0
+Nouns      :9 k:0 c:8 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['라오스']
+ChineseRoot:['중국', '운남성', '백내장', '환자', '무료', '수술', '연변', '일보']
+중국 운남성, 라오스 백내장 환자 무료 수술-연변일보 Yanbian Daily
+c...c......e....c.....c...c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

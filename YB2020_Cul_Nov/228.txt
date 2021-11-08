@@ -1,0 +1,27 @@
+url:http://www.iybrb.com/civ/content/2020-02/25/26_396526.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:3 c:3 e:0 o:0
+Nouns      :5 k:2 c:3 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['영어', '연변', '일보']
+말이 되는 영어 한마디-연변일보 Yanbian Daily
+k...k...c...k.....c..c................
+=============================
+Korean:43 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:43 k:26 c:16 e:0 o:1
+Nouns      :36 k:22 c:13 e:0 o:1
+Verbs      :7 K:4 c:3 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['일도', '상대방', '표정', '할', '과도', '표현', '대신', '불만', '하기', '두자', '문제', '일이', '제공', '연길시', '동방', '영어학원']
+What’s with you?(무슨 일 있어?)◈ What’s with you these days?요즘 무슨 일 있니?◈ Nothing!아무 일도 없어
+.................k...k....................................k...k...k...............k...c......
+.상대방의 표정이 좋지 못할 때 쓸 수 있는 말이다. What’s wrong with you? 이거나 What’s wrong? 과도 비슷한
+.c......c..........c..k.k..k.....k..............................k.................c........
+ 표현이죠. 하지만 What’s with you? 대신 What’s your problem?을 쓰면 안된다. 이 말은 “뭐가 문젠데?”, “뭐
+.c..............................c.........................k..........k.k....k.....o.......k
+ 불만 있어?”하는 느낌이 들게 하기 때문이다.이것도 알아두자·What’s the matter? 뭐가 문제야?·What’s wrong? 무슨
+.c........k...k.....k...c...k.......k...k..c......................k...c....................k..
+ 일이야?·Is something wrong? 무슨 일 있어?제공: 연길시동방영어학원
+.c..........................k...k.....c....c....c..c.....
