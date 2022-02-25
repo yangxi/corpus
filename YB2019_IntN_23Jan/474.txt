@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/13/60_368700.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:0 c:6 e:2 o:0
+Nouns      :8 k:0 c:6 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['시카고', '아프리카']
+ChineseRoot:['미국', '미국인', '행진', '거행', '연변', '일보']
+미국 시카고, 아프리카계 미국인 대행진 거행-연변일보 Yanbian Daily
+c...e......e.......c......c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/news/content/2016-04/14/61_43139.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:1 c:5 e:0 o:0
+Nouns      :6 k:1 c:5 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '차', '김일성화', '축전', '개막']
+조선,제18차 김일성화축전 개막
+c...k...c.c.....c...c..
+=============================
+Korean:23 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:23 k:7 c:16 e:0 o:0
+Nouns      :20 k:4 c:16 e:0 o:0
+Verbs      :3 K:3 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '중앙', '통신', '기념', '차', '김일성화', '축전', '평양', '개막', '전', '김일성화', '축전', '평양', '김일성화', '전시관', '신화사']
+조선중앙통신은 태양절기념 제18차 김일성화축전이 평양에서 개막했다고 13일 전했다. 김일성화축전은 오는 13일부터 20일
+c..c..c.....k...c...k...c.c.....c.....c......c..k.........ck....c.....c.....k..............
+까지 평양 김일성화· 김정일화 전시관에서 열린다.신화사
+....c...c.......k......c.........k...c....

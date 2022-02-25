@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-07/05/27_53535.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:3 c:2 e:0 o:1
+Nouns      :3 k:1 c:2 e:0 o:0
+Verbs      :3 K:2 c:0 e:0 o:1
+EnglishRoot:[]
+ChineseRoot:['시', '보아']
+[시] 보고싶은 님은 찾아가서 보아야 한다
+.c...o......k...k......c....k..
+=============================
+Korean:29 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:29 k:20 c:7 e:0 o:2
+Nouns      :18 k:14 c:4 e:0 o:0
+Verbs      :11 K:6 c:3 e:0 o:2
+EnglishRoot:[]
+ChineseRoot:['한번', '가보고싶은', '담은', '도박', '할', '순', '보아']
+한번 가보고싶은곳을 나는마음을 담은 웃음으로 지켜 보았다꽃잎은 물을 따라걸림돌 하나없이 줄기차게 흐르고있었다그리움때문
+c...c.......k...k..k....c...k......k...k....k....k...k..k..k..k.............o........k...k..
+에 나는 아팠다나는 그대의 마음을 두고도박을 할순 없었다보고싶은 님은 찾아가서 보아야 한다
+...k...........k.....k.......c.....cc......o......k...k......c.....k..

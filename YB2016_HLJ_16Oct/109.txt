@@ -1,0 +1,23 @@
+url:http://www.iybrb.com/civ/content/2016-03/31/27_54731.html
+=============================
+Korean:3 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:3 k:1 c:2 e:0 o:0
+Nouns      :3 k:1 c:2 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['장', '누']
+장 맛 —누이에게
+c..k..c.....
+=============================
+Korean:46 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:46 k:32 c:11 e:0 o:3
+Nouns      :32 k:22 c:10 e:0 o:0
+Verbs      :14 K:10 c:1 e:0 o:3
+EnglishRoot:[]
+ChineseRoot:['항아리', '세상', '간장', '된장', '생', '항아리', '서성', '둔', '지누', '항아리', '별']
+항아리의 세상살이도간장 될가된장 될가꽤나 버거운 한생이겠지항아리 곁에서 서성이던 낮달열두바퀴 돌아쳐도짠맛만은 어쩌지
+c......c..k....c...k..c...k..k...k......c..o..c....k.....c......k.....k...k..k..k..........
+ 못한채풀썩 주저앉고말았지눌러 둔 돌덩이 밀치고빠져 나온 숯덩이숭숭한 구멍마다짠맛만 채웠지누이는 이 밤도하늘항아리에
+.k..k.....o.........k...c..kk...k....k...k...kk..k.....k.....k....o..c......k..k..k..c.....
+별들을 챙겨 넣고장맛으로 익히고 계시겠지.
+c.....k...kk..k.....k...........

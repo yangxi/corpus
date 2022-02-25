@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2019-10/10/27_376113.html
+=============================
+Korean:5 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:5 k:2 c:2 e:0 o:1
+Nouns      :4 k:1 c:2 e:0 o:1
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['연변', '일보']
+늙은 꽃□ 문정희-연변일보 Yanbian Daily
+k...k...o....c..c................
+=============================
+Korean:33 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:33 k:22 c:11 e:0 o:0
+Nouns      :27 k:17 c:10 e:0 o:0
+Verbs      :6 K:5 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['생애', '순간', '종족', '자존심', '식', '필', '유전자', '하지', '분별', '대신', '향기']
+어느 땅에늙은 꽃이 있으랴꽃의 생애는 순간이다아름다움이 무엇인가를 아는종족의 자존심으로꽃은 어떤 식으로 피든필 때 다
+....k..k...k........k...c....c..........k...k.....k.k..c.....c......k.......c.....k..c.k...
+ 써버린다피 속에주름과 장수의 유전자가 없는꽃이 말을 하지 않는다는 것은더욱 오묘하다분별 대신 향기라니
+.k.k...k..k..k....k.....c.........k...k...c...k......k..k.........c...c...c.....

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/29/60_378491.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:8 e:1 o:0
+Nouns      :9 k:0 c:8 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['이라크']
+ChineseRoot:['항의', '시위', '명', '사망', '명', '부상', '연변', '일보']
+이라크 항의시위   74명 사망 3654명 부상-연변일보 Yanbian Daily
+e.....c..c.......c.c.......c..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

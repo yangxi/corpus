@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2020-04/08/26_406581.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:2 c:2 e:0 o:0
+Nouns      :3 k:1 c:2 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['연변', '일보']
+빈칸을 채우라-연변일보 Yanbian Daily
+k.....k....c..c................
+=============================
+Korean:35 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:35 k:24 c:11 e:0 o:0
+Nouns      :24 k:15 c:9 e:0 o:0
+Verbs      :11 K:9 c:2 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['문제', '출발', '제일', '도착', '각', '이동', '방향', '그려져있고', '몇번', '적혀있다', '정답']
+문제: 맨 웃줄 왼쪽 1이 적힌 칸에서 출발해 제일 아래줄 오른쪽 16이 적힌 칸에 도착해야 한다. 각 칸에는 이동 방향을 나타내는
+c....k..k...k....k.k...k.....c..k.c...k.....k......k..k...k...c..k...k....c.k.....c...c....k.....
+ 화살표가 그려져있고 몇번째로 그 칸을 지나는지 수자가 적혀있다. 빈칸에 수자를 어떻게 채워야 할가?정답:
+.k......c........c......k.k...k......k.....c.......k....k..........k.........c...

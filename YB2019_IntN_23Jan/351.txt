@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/27/60_370698.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:2 c:5 e:1 o:0
+Nouns      :8 k:2 c:5 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['수리아']
+ChineseRoot:['정부', '북부', '수복', '연변', '일보']
+수리아 정부군 서북부 여러 마을 수복-연변일보 Yanbian Daily
+e.....c......c...k...k...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

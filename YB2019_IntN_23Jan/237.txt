@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/24/60_374306.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:1 c:7 e:1 o:0
+Nouns      :9 k:1 c:7 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['세르비아']
+ChineseRoot:['중국', '경찰', '합동', '순찰', '가동', '연변', '일보']
+중국-세르비아 경찰 첫 합동순찰 가동-연변일보 Yanbian Daily
+c...e......c...k..c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

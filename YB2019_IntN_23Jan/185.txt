@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/06/60_363360.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:0 c:6 e:2 o:0
+Nouns      :8 k:0 c:6 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['프랑스', '툴롱']
+ChineseRoot:['중국해', '안함', '군항', '방문', '연변', '일보']
+중국해군 서안함 프랑스 툴롱군항 방문-연변일보 Yanbian Daily
+c........c...e....e..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

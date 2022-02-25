@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/sport/content/2018-11/05/35_331077.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:2 c:3 e:2 o:0
+Nouns      :6 k:1 c:3 e:2 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:['팀', '시즌']
+ChineseRoot:['연변', '연변', '일보']
+한눈으로 보는 연변팀의 2018 시즌-연변일보 Yanbian Daily
+k......k...c..e........e...c..c................
+=============================
+Korean:5 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:5 k:2 c:1 e:2 o:0
+Nouns      :4 k:1 c:1 e:2 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:['팀', '시즌']
+ChineseRoot:['연변']
+한눈으로 보는 연변팀의 2018 시즌
+k......k...c..e........e..

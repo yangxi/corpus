@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-04/01/27_53515.html
+=============================
+Korean:2 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:2 k:1 c:1 e:0 o:0
+Nouns      :2 k:1 c:1 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 비
+.c...k
+=============================
+Korean:26 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:26 k:14 c:12 e:0 o:0
+Nouns      :17 k:6 c:11 e:0 o:0
+Verbs      :9 K:8 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['내', '수직', '인생', '고백', '한평생', '서서', '예술', '굽힐줄', '직', '신조', '순수', '난']
+내 가슴에수직으로 내리꼰지는비―                  비는 정직한 인생이다거짓 없는 창백한 고백 비는 한평생서서 죽는
+c..k...c......k..k....k...................k.........c.....k............c...k...c....c...k..
+예술을 배운다부서져도 굽힐줄 모르는곧은 직자 하나만을신조로 지켜온순수한 바보,그래도 난 좋다!
+c.....k...k......c.....k.......c...k.....c.....k...c.....k........c......

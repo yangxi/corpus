@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/22/60_377767.html
+=============================
+Korean:12 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:12 k:1 c:9 e:2 o:0
+Nouns      :12 k:1 c:9 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['런던', '유럽']
+ChineseRoot:['명', '민중', '차', '련합', '탈퇴', '국민투표', '호소', '연변', '일보']
+런던, 수만명 민중 제2차 ‘유럽련합 탈퇴’ 국민투표 호소-연변일보 Yanbian Daily
+e.......c..c...k.c...e..c...c....c......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

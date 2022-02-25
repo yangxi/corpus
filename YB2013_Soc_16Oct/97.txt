@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/soc/content/2013-10/28/21_45917.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:0 c:6 e:0 o:1
+Nouns      :7 k:0 c:6 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['농기', '차량', '규정', '위반', '운전', '단속']
+농기차량 규정위반운전을 엄하게 단속
+c..c...c..c..c.....o....c..
+=============================
+Korean:22 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:22 k:0 c:17 e:0 o:5
+Nouns      :21 k:0 c:17 e:0 o:4
+Verbs      :1 K:0 c:0 e:0 o:1
+EnglishRoot:[]
+ChineseRoot:['추수', '기간', '기소', '교통경찰', '도로', '농기', '차량', '규정', '위반', '운전', '함', '농기', '작업', '안전', '담보', '장전', '흥']
+추수기간 돈화시 액목진농기소에서는 교통경찰과 련합하여 도로에서의 농기차량 규정위반운전을 엄하게 단속함으로써 농기작업
+c..c...o.....o.....c.......c........o......c.......c..c...c..c..c.....o.......c......c..c..
+안전을 담보하고있다.  장전흥
+c.....c..o........c..c

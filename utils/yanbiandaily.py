@@ -12,8 +12,13 @@ class YanbianDaily:
 
     def load_pages(self):
         if os.path.exists(self.page_file):
+            pages = {}
             with open(self.page_file, 'r') as df:
-                pages = json.load(df)
+                try:
+                    pages = json.loads(df)
+                except Exception as pe:
+                    print("WARN: an exception happened when parsking the ~/yanbian_daily.json cache\n")
+
                 if type(pages) != dict:
                     return {}
                 else:

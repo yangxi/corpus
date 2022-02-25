@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-10/15/60_376762.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:7 e:0 o:2
+Nouns      :9 k:0 c:7 e:0 o:2
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['수도', '금지', '군사', '관제', '실시', '연변', '일보']
+에꽈도르 수도 야간통행금지와 군사관제 실시-연변일보 Yanbian Daily
+o......c...o.....c.....c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

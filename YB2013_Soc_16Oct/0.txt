@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/soc/content/2013-10/30/21_45929.html
+=============================
+Korean:8 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:8 k:2 c:6 e:0 o:0
+Nouns      :8 k:2 c:6 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['주행', '안전', '위해', '방지', '재료', '준비']
+겨울철 주행안전 위해 미끄럼방지재료 준비
+k.....c..c...c...k...c..c...c..
+=============================
+Korean:23 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:23 k:5 c:18 e:0 o:0
+Nouns      :19 k:3 c:16 e:0 o:0
+Verbs      :4 K:2 c:2 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['주행', '안전', '담보', '하기', '위해', '도로', '관리', '단', '도로', '보수', '종업원', '도로', '구간', '방지', '재료', '준비', '두고있다', '신호']
+겨울철 주행안전을 담보하기 위해  안도현도로관리단 도로보수종업원들이  위험한 도로구간에 미끄럼방지재료를 서둘러 준비해
+k.....c..c....c..c...c....k....c..c..c.c..c..c..............c..c.....k...c..c.....k....c..k.
+두고있다.  신호식
+c........c....

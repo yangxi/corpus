@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/16/60_373207.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:0 c:9 e:0 o:1
+Nouns      :10 k:0 c:9 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['국제', '통신', '박람회', '응용', '립', '백서', '발표', '연변', '일보']
+화웨이 국제통신박람회서 《5G응용립장백서》 발표-연변일보 Yanbian Daily
+o.....c..c..c..........c..c..c.....c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

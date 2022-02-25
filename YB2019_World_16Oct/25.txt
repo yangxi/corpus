@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-09/11/60_372640.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:2 c:5 e:3 o:0
+Nouns      :10 k:2 c:5 e:3 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['비자', '서비스', '센터']
+ChineseRoot:['중국', '신청', '개업', '연변', '일보']
+윁남 첫 중국비자신청서비스센터 개업-연변일보 Yanbian Daily
+k...k..c..e..c..e...e...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

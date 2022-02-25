@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/19/60_369502.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:8 e:1 o:0
+Nouns      :9 k:0 c:8 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['샌프란시스코']
+ChineseRoot:['미국', '민중', '총기', '규제', '강화', '촉구', '연변', '일보']
+미국 샌프란시스코 민중 총기규제강화 촉구-연변일보 Yanbian Daily
+c...e.........c...c..c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/16/60_364660.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:3 e:0 o:0
+Nouns      :4 k:1 c:3 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['질주', '연변', '일보']
+물소들의 질주-연변일보 Yanbian Daily
+k......c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

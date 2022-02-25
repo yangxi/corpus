@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-06/03/61_359009.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:1 c:9 e:0 o:0
+Nouns      :10 k:1 c:9 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['조선', '평양', '형문', '체육', '활동', '아동', '경축', '연변', '일보']
+조선 평양, 대형문화체육활동으로 “6.1”아동절 경축-연변일보 Yanbian Daily
+c...c......c...c..c...........c..k..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

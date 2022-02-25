@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-08/27/60_370607.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:1 c:7 e:2 o:0
+Nouns      :10 k:1 c:7 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['모스크바', '타워']
+ChineseRoot:['구세주', '국제', '군악', '축제', '개막', '연변', '일보']
+로씨야 모스크바서 ‘구세주 타워’ 국제군악축제 개막-연변일보 Yanbian Daily
+k.....e........c.....e....c..c..c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

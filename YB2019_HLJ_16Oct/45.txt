@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2019-06/19/27_361067.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:2 e:0 o:1
+Nouns      :4 k:1 c:2 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['연변', '일보']
+다시□ 박노해-연변일보 Yanbian Daily
+k....o.....c..c................
+=============================
+Korean:22 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:22 k:12 c:10 e:0 o:0
+Nouns      :17 k:8 c:9 e:0 o:0
+Verbs      :5 K:4 c:1 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['희망', '찬', '자신', '희망이', '자신', '자신', '세상', '시작', '된다다시', '희망이']
+희망찬 사람은그 자신이 희망이다길 찾는 사람은그 자신이 새길이다참 좋은 사람은그 자신이 이미 좋은 세상이다사람 속에 들어
+c..c..k......c....c.....k..k...k......c....k.....k......k......c............c.....k...k...k..
+ 있다사람에서 시작된다다시사람만이 희망이다
+....k......c..c.....k......c.....

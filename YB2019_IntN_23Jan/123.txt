@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-11/12/60_380597.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:2 c:5 e:0 o:0
+Nouns      :6 k:1 c:5 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['비아', '국보위', '기념', '연변', '일보']
+라뜨비아 “조국보위자의 날” 기념-연변일보 Yanbian Daily
+..kc......c.......k...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

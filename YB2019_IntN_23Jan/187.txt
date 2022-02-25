@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/13/60_364249.html
+=============================
+Korean:6 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:6 k:0 c:5 e:0 o:1
+Nouns      :6 k:0 c:5 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시위', '경찰', '충돌', '연변', '일보']
+나이제리아, 시위자와 경찰 충돌-연변일보 Yanbian Daily
+o.........c......c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

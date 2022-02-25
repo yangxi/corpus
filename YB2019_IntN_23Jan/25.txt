@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/23/60_365643.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:7 e:2 o:0
+Nouns      :9 k:0 c:7 e:2 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['파키스탄', '퀘타']
+ChineseRoot:['중국', '시', '시민', '식수난', '해소', '연변', '일보']
+중국, 파키스탄 퀘타시 시민 식수난 해소-연변일보 Yanbian Daily
+c....e......e..c..c...c....c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

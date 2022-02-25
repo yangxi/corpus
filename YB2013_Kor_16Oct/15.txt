@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/news/content/2013-11/07/61_38972.html
+=============================
+Korean:7 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:7 k:0 c:7 e:0 o:0
+Nouns      :7 k:0 c:7 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['일본', '체육', '대학', '대표', '단', '평양', '방문']
+일본 체육대학대표단 11월 5일 평양 방문
+c...c..c..c..c..........c...c..
+=============================
+Korean:18 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:18 k:3 c:13 e:1 o:1
+Nouns      :16 k:1 c:13 e:1 o:1
+Verbs      :2 K:2 c:0 e:0 o:0
+EnglishRoot:['겐지']
+ChineseRoot:['마', '인솔', '체육', '대학', '대표', '단', '평양', '도착', '조선', '대한', '방문', '시작', '종합']
+마쯔나미 겐지로가 인솔한 일본체육대학대표단이 11월 5일 평양에 도착해 조선에 대한 방문을 시작했다. 종합
+c.o....e..k...c........c..c..c..c...........c....c..k..c....c...c.....c..k....c..

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-04/20/27_53517.html
+=============================
+Korean:5 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:5 k:4 c:1 e:0 o:0
+Nouns      :4 k:3 c:1 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 밤하늘에 돋혀다오 나의 무지개여
+.c...k......k......k...k.....
+=============================
+Korean:30 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:30 k:23 c:6 e:1 o:0
+Nouns      :22 k:15 c:6 e:1 o:0
+Verbs      :8 K:8 c:0 e:0 o:0
+EnglishRoot:['힐']
+ChineseRoot:['내', '여', '순정', '락서', '락서', '의']
+황홀한 댕기로 내 마음 동여놓고 주름살 하나 없는 하얀 순정에아린 락서만 남기고 떠난 무지개여밤비가 주룩주룩 설음 쏟는
+......k....c..k....c.k...k....k...........c........c....k.....k...k.....k....k......k...k..
+ 밤비와 함께 흠뻑 락서를 적시며나는 아름답게 미칩니다밤비가 잠들면 밤하늘에 활짝 돋힐나의 무지개를 기다리며…
+.k.........k...c....k....k................k....k.....k......k...ke..c..k......k......

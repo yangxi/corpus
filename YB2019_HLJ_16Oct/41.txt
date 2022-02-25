@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2019-05/09/27_355815.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:2 e:0 o:1
+Nouns      :4 k:1 c:2 e:0 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['연변', '일보']
+그리움□ 강희선-연변일보 Yanbian Daily
+k......o....c..c................
+=============================
+Korean:29 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:29 k:22 c:6 e:0 o:1
+Nouns      :19 k:12 c:6 e:0 o:1
+Verbs      :10 K:10 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['상사', '여심', '파수', '질', '호수', '파도처럼']
+상사가 달이 되여심상에 떠오를 때그리움은 눈먼 파수군 되여아픈 가슴에 총질 한다잔잔한 호수 같은 가슴이바람에 깬 파도처럼
+c.....k...kc......k.....kk......k...c.....k......k......c.k........c.......k..o......k.c.....
+ 술렁이면찢겼던 마음 쪼각들이껍질을 한올한올 벗어버리고맑은 씨앗으로 똘랑 떨어진다.
+.k.....k.....k...k.....k...........k..k....k...k......k...k......

@@ -1,0 +1,21 @@
+url:http://www.iybrb.com/civ/content/2007-05/25/27_53526.html
+=============================
+Korean:2 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:2 k:1 c:1 e:0 o:0
+Nouns      :2 k:1 c:1 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 그림자
+.c...k...
+=============================
+Korean:32 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:32 k:26 c:3 e:1 o:2
+Nouns      :19 k:15 c:3 e:1 o:0
+Verbs      :13 K:11 c:0 e:0 o:2
+EnglishRoot:['헤드라이트']
+ChineseRoot:['기일', '벽', '절벽']
+기일게 누워 손을 펴도손에 닫는것이 없다벽을 짚고 일어서도키는 여전히 모자란다날아간 소리는 돌아올 길을 잃고우두커니 절벽
+c.....k...k...k..k...o.........c...k...k...k..........k.....k.....k....k.....k...k..k......c..
+에 외롭다헤드라이트 불빛에 만지운껍질을 깨지 못한 울음소리가밤이면 거리에 뛰여나온다너는 나의 설음인가?
+.......e........k....o....k....k...k...k.......k....k.....k..k...k...k...k......

@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/20/60_365236.html
+=============================
+Korean:9 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:9 k:0 c:7 e:1 o:1
+Nouns      :9 k:0 c:7 e:1 o:1
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['필리핀']
+ChineseRoot:['뎅기열', '급증', '최소', '명', '사망', '연변', '일보']
+필리핀 뎅기열병례 급증 최소 450명 사망-연변일보 Yanbian Daily
+e.....c...o...c...c......c..c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

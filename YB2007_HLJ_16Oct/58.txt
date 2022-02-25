@@ -1,0 +1,19 @@
+url:http://www.iybrb.com/civ/content/2007-04/01/27_53514.html
+=============================
+Korean:2 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:2 k:1 c:1 e:0 o:0
+Nouns      :2 k:1 c:1 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 뿌리
+.c...k..
+=============================
+Korean:13 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:13 k:7 c:5 e:0 o:1
+Nouns      :12 k:7 c:5 e:0 o:0
+Verbs      :1 K:0 c:0 e:0 o:1
+EnglishRoot:[]
+ChineseRoot:['의미', '피고', '피고', '피고', '소원']
+뿌리의 의미는잎에서 피고꽃에서 피고열매에서 피고… 하지만뿌리의 소원은오직 참된뿌리로 되는것입니다.
+k.....c...k.....c..k....c..k......c.........k....c....k......k....o.........

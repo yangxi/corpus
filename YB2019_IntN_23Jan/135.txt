@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-07/22/60_365444.html
+=============================
+Korean:14 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:14 k:1 c:12 e:1 o:0
+Nouns      :14 k:1 c:12 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['유엔']
+ChineseRoot:['수단', '주재', '중국', '기', '평화유지군', '헬기', '분대', '평화', '훈장', '수여', '연변', '일보']
+수단 주재 중국 제2기 평화유지군 헬기 분대, 유엔 평화영예훈장 수여-연변일보 Yanbian Daily
+c...c...c...k..c.c........c...c....e...c.....c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

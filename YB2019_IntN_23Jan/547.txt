@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/news/content/2019-11/05/60_379517.html
+=============================
+Korean:10 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:10 k:2 c:7 e:1 o:0
+Nouns      :10 k:2 c:7 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['수리아']
+ChineseRoot:['토이기', '군대', '북부', '순', '진행', '연변', '일보']
+토이기 로씨야 군대 수리아북부서 첫 공동순라 진행-연변일보 Yanbian Daily
+c.....k....c...e....c....k.....c...c...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]

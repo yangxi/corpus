@@ -1,0 +1,23 @@
+url:http://www.iybrb.com/civ/content/2007-06/08/27_53531.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:3 c:1 e:0 o:0
+Nouns      :3 k:2 c:1 e:0 o:0
+Verbs      :1 K:1 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:['시']
+[시] 엄마가 살던 집
+.c...k....k...k.
+=============================
+Korean:42 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:42 k:31 c:6 e:2 o:3
+Nouns      :33 k:25 c:6 e:2 o:0
+Verbs      :9 K:6 c:0 e:0 o:3
+EnglishRoot:['핀', '핀']
+ChineseRoot:['빈', '봉선화', '세상', '봉선화', '빈', '봉선화']
+피는 꽃이 무엇인지  지는 꽃이 무엇인지 모르고 엄마가 살던 집 빈 마당에 망초대 우거진 사이로 핀 꽃은엄마가 심어놓은 봉선화
+k...k...k.......k...k...k......k.....k....k...k..c.k.....k..........k....e..k..k....o......c....
+ 하나서러운 세상살이 시름을 잊고그늘속에 봉선화 곱게 피였네엄마가 살던 집 빈 마당에망초대 우거진 사이로 핀 꽃은엄마가
+.k........c..k...k....k..k..k...c.....k...o...k.....k...k.c..k...k..........k.....e.k..k....
+ 심어놓은 봉선화 하나.
+.o......c.....k...

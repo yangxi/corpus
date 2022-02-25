@@ -1,0 +1,17 @@
+url:http://www.iybrb.com/civ/content/2020-08/16/26_436358.html
+=============================
+Korean:4 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:4 k:1 c:2 e:1 o:0
+Nouns      :4 k:1 c:2 e:1 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:['리빙']
+ChineseRoot:['연변', '일보']
+리빙 꿀팁-연변일보 Yanbian Daily
+e...k...c..c................
+=============================
+Korean:0 Chinese:0 English:0 Japaness:0 Unknown:0
+TotalKorean:0 k:0 c:0 e:0 o:0
+Nouns      :0 k:0 c:0 e:0 o:0
+Verbs      :0 K:0 c:0 e:0 o:0
+EnglishRoot:[]
+ChineseRoot:[]
