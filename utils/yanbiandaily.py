@@ -17,7 +17,7 @@ class YanbianDaily:
                 try:
                     pages = json.loads(df)
                 except Exception as pe:
-                    print("WARN: an exception happened when parsking the ~/yanbian_daily.json cache\n")
+                    print("WARN: an exception happened when parsking the ~/yanbian_daily.json cache: %s \n" % pe)
 
                 if type(pages) != dict:
                     return {}
