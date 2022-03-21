@@ -2,20 +2,21 @@ import os
 import json
 
 from pandas import DataFrame
+import pandas as pd
 from utils.count_tag import TaggedArticle
 
 class CorpusFrames:
-    # row format
-    # keys: corpus_source, corpus_source_file, tag_file, title, author, catalogue, date, summary url content
-    corpus = {}
-    corpus_frames = None
-    corpus_source = ""
-    corpus_path = ""
-    
-    # {source: str, tags: [str]}
-    corpus_dir = {}
     # search all corpus direcotires and load the articles DIR/source.json ad the tags DIR/[0-9]*.txt
     def __init__(self, corpus_source, dir_path):
+        # row format
+        # keys: corpus_source, corpus_source_file, tag_file, title, author, catalogue, date, summary url content
+        self.corpus = {}
+        self.corpus_frames = None
+        self.corpus_source = ""
+        self.corpus_path = ""
+        self.empty_articles = 0
+        self.corpus_dir = {}
+
         fpath = dir_path
         if fpath.startswith("~"):
             fpath = os.path.expanduser(fpath)
@@ -68,6 +69,13 @@ class CorpusFrames:
                     columns[k].append(None)
                     added_keys[k] = True
         self.corpus_frames = DataFrame.from_dict(columns)
+        #turn the date column to datetime
+        if 'date' in columns:
+            self.corpus_frames.date = pd.to_datetime(self.corpus_frames.date)
+            # sort by date
+            self.corpus_frames = self.corpus_frames.sort_values(by='date')
+            # reset the index
+            self.corpus_frames = self.corpus_frames.reset_index(drop=True)
 
     def find_corpus_dirs(self, dir_path):    
         for root, dirs, files in os.walk(dir_path):
@@ -89,6 +97,9 @@ class CorpusFrames:
             for i in range(0, len(articles)):
                 doc = articles[i]
                 if doc['url'] not in self.corpus:
+                    if 'content' in doc and doc['content'] == "":
+                        self.empty_articles += 1
+                        continue
                     url = doc['url']
                     self.corpus[url] = doc
                     doc['corpus_source'] = self.corpus_source
@@ -116,7 +127,7 @@ class CorpusFrames:
                         if tag_url in self.corpus:                            
                             article = self.corpus[tag_url]
                             if 'tag' in article:
-                                print("Duplicated tag in the tag file {} in article {}".format(tag_file_path, article))
+                                print("Tag in tagfile:{} is duplicated in the article {} loaded from another tagfile:{}.\n ".format(tag_file_path, article['url'], article['tag_file']))
                             else:
                                 article['tag_file'] = tag_file_path
                                 article['tag'] = tags
@@ -128,4 +139,20 @@ class CorpusFrames:
                     # except Exception as taggingexp:
                     #     print("Exception when loading the article {} in the source file {}: {}".format(url, dir_path, taggingexp))
                     # doc['tags'] = tags  
-                        
+    def find_word(self, word, frames=None):
+        source = frames if frames else self.corpus_frames
+        hits = source[source.content.str.contains(word)]
+        print("{} of {} ({:.2f}) has the word {}".format(hits.size, self.corpus_frames.size, hits.size*1.0 / self.corpus_frames.size, word))
+        # iterate the hits
+        output = ""
+        for index, r in hits.iterrows():
+            output += "\n==== id:{} date:{} title:{} catalogue:{}\n".format(index, r['date'], r['title'], r['catalogue'])
+            # we output the matched sentences for each article
+            sentences = r['content'].split('.')
+            nr_s = 1
+            for s in sentences:
+                if s.find(word) > 0:
+                    output += "\n{}:  {}\n".format(nr_s, s.replace('\r\n', "").strip())
+                    nr_s += 1
+        print(output)
+        return hits

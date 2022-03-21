@@ -54,10 +54,12 @@ import sys, os
 
 
 class TaggedArticle:
-    tag = {}
-    tag_source_path = ""
-    parsing_error = ""
+
     def __init__(self, tagfile):
+        self.tag = {}
+        self.tag_source_path = ""
+        self.parsing_error = ""
+        
         fpath = tagfile
         if tagfile.startswith("~"):
             fpath = os.path.expanduser(fpath)                   
@@ -87,7 +89,7 @@ class TaggedArticle:
             
 
     def compute_article(self):
-        for k in self.tag:
+        for k in list(self.tag.keys()):
             if k.startswith('title'):
                 paired_key = k.replace('title', 'body')
                 if paired_key in self.tag:
@@ -103,25 +105,29 @@ class TaggedArticle:
     
     def extract_part(self, prefix, part):
         lines = part.split('\n')
-        if len(lines) < 7:
-            self.parsing_error += "The {} part has less than 7 lines\n".format(prefix, part)
+        if len(lines) < 6:
+            self.parsing_error += "The {} part has less than 6 lines\n".format(prefix, part)
             raise Exception(self.parsing_error)
         total_word_root_line = lines[0]
 #        print(part)
 #        print("The first line %s" % (str(lines)))
-        self.parse_total_word_line("title", total_word_root_line)
+        self.parse_total_word_line(prefix, total_word_root_line)
         korean_word_root_line = lines[1]
-        self.parse_korean_word_root_line("title", korean_word_root_line)
+        self.parse_korean_word_root_line(prefix, korean_word_root_line)
         korean_noun_root_line = lines[2]
-        self.parse_korean_nounverb_root_line("title", korean_noun_root_line, 'Nouns', 'nouns')
+        self.parse_korean_nounverb_root_line(prefix, korean_noun_root_line, 'Nouns', 'nouns')
         korean_verb_root_line = lines[3]
-        self.parse_korean_nounverb_root_line("title", korean_verb_root_line, 'Verbs', 'verbs')
+        self.parse_korean_nounverb_root_line(prefix, korean_verb_root_line, 'Verbs', 'verbs')
         english_root_list = lines[4]
         chinese_root_list = lines[5]
-        self.parse_root_list("title", [english_root_list, chinese_root_list])
+        self.parse_root_list(prefix, [english_root_list, chinese_root_list])
         # PREFIX_tag_text
-        tag_text = "\n".join(lines[6:])
-        tag_key = "{}_tag_text".format('title')
+        if len(lines) == 6:
+            #empty content
+            tag_text = ""
+        else:        
+            tag_text = "\n".join(lines[6:])
+        tag_key = "{}_tag_text".format(prefix)
         self.tag[tag_key] = tag_text
         
     
