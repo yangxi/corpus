@@ -3,6 +3,7 @@ import json
 
 from pandas import DataFrame
 import pandas as pd
+import regex
 from utils.count_tag import TaggedArticle
 
 class CorpusFrames:
@@ -165,11 +166,13 @@ class CorpusFrames:
                     #     tags = tagarticle.tag
                     # except Exception as taggingexp:
                     #     print("Exception when loading the article {} in the source file {}: {}".format(url, dir_path, taggingexp))
-                    # doc['tags'] = tags  
+                    # doc['tags'] = tags      
     def find_word(self, word, frames=None):
         source = frames if frames else self.corpus_frames
         hits = source[source.content.str.contains(word)]
-        print("{} of {} ({:.2f}) has the word {}".format(hits.size, self.corpus_frames.size, hits.size*1.0 / self.corpus_frames.size, word))
+        source_len = len(self.corpus_frames)
+        hits_len = len(hits)
+        print("{} of {} ({:.2f}) has the word {}".format(hits_len, source_len, (1.0 * hits_len) / source_len, word))
         # iterate the hits
         output = ""
         for index, r in hits.iterrows():
@@ -181,5 +184,45 @@ class CorpusFrames:
                 if s.find(word) > 0:
                     output += "\n{}:  {}\n".format(nr_s, s.replace('\r\n', "").strip())
                     nr_s += 1
+        print(output)
+        return hits
+
+    def find_korean_words_with_prefix(self, prefix,  prefix_size= None, frames=None):
+        regx = str(prefix) + r'\p{IsHangul}*'
+        if prefix_size:
+            regx = str(prefix) + r'\p{IsHangul}' + '{' + str(prefix_size) + '}'
+        return self.re_find_word_in_content(regx, frames)
+
+    def find_korean_words_with_suffix(self, suffix,  prefix_size= None, frames=None):
+        regx = r'\p{IsHangul}*' + suffix
+        if prefix_size:
+            regx = r'\p{IsHangul}' + '{' + str(prefix_size) + '}' + suffix
+        return self.re_find_word_in_content(regx, frames)
+
+    def re_find_word_in_content(self, rexp, frames=None):
+        source = frames if frames else self.corpus_frames
+        hit_source = source.content.apply(lambda x: len(regex.findall(rexp, x.replace('\r\n','').strip())) > 0)
+        hits = source[hit_source]
+        source_len = len(self.corpus_frames)
+        hits_len = len(hits)       
+        # iterate the hits
+        output = ""
+        matched_words = {}
+        for index, r in hits.iterrows():
+            output += "\n==== id:{} date:{} title:{} catalogue:{}\n".format(index, r['date'], r['title'], r['catalogue'])
+            # we output the matched sentences for each article
+            sentences = r['content'].split('.')    
+            nr_s = 1
+            for s in sentences:
+                content = s.replace('\r\n', "").strip()
+#                print("s.findall {} {}".format(r, content))
+                words = regex.findall(rexp, content)                
+                if len(words) > 0:                    
+                    output += "\n{}, words:{}:  {}\n".format(nr_s, words, content)
+                    nr_s += 1
+                    for w in words:
+                        if w not in matched_words:
+                            matched_words[w] = True
+        print("{} of {} ({:.2f}) has matched words {}".format(hits_len, source_len, (1.0 * hits_len) / source_len, list(matched_words.keys())))
         print(output)
         return hits
