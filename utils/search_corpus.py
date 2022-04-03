@@ -37,21 +37,21 @@ class CorpusFrames:
         'corpus_source', 'corpus_source_file', 'tag_file', 'title_korean_words',
        'title_chinese_words', 'title_japaness_words', 'title_unknow_words',
        'title_total_words', 'title_kroot_words', 'title_croot_words',
-       'title_oeoot_words', 'title_oroot_words', 'title_korean_nouns',
+       'title_eroot_words', 'title_oroot_words', 'title_korean_nouns',
        'title_kroot_nouns', 'title_croot_nouns', 'title_eroot_nouns',
        'title_oroot_nouns', 'title_korean_verbs', 'title_kroot_verbs',
        'title_croot_verbs', 'title_eroot_verbs', 'title_oroot_verbs',
        'title_eroot_list', 'title_croot_list', 'title_tag_text',
        'body_korean_words', 'body_chinese_words', 'body_japaness_words',
        'body_unknow_words', 'body_total_words', 'body_kroot_words',
-       'body_croot_words', 'body_oeoot_words', 'body_oroot_words',
+       'body_croot_words', 'body_eroot_words', 'body_oroot_words',
        'body_korean_nouns', 'body_kroot_nouns', 'body_croot_nouns',
        'body_eroot_nouns', 'body_oroot_nouns', 'body_korean_verbs',
        'body_kroot_verbs', 'body_croot_verbs', 'body_eroot_verbs',
        'body_oroot_verbs', 'body_eroot_list', 'body_croot_list',
        'body_tag_text', 'article_korean_words', 'article_chinese_words',
        'article_japaness_words', 'article_unknow_words', 'article_total_words',
-       'article_kroot_words', 'article_croot_words', 'article_oeoot_words',
+       'article_kroot_words', 'article_croot_words', 'article_eroot_words',
        'article_oroot_words', 'article_korean_nouns', 'article_kroot_nouns',
        'article_croot_nouns', 'article_eroot_nouns', 'article_oroot_nouns',
        'article_korean_verbs', 'article_kroot_verbs', 'article_croot_verbs',
@@ -167,9 +167,10 @@ class CorpusFrames:
                     # except Exception as taggingexp:
                     #     print("Exception when loading the article {} in the source file {}: {}".format(url, dir_path, taggingexp))
                     # doc['tags'] = tags      
-    def find_word(self, word, frames=None):
+    def find_word(self, word, column="content",frames=None):
         source = frames if frames else self.corpus_frames
-        hits = source[source.content.str.contains(word)]
+        col = source[column]
+        hits = source[col.str.contains(word)]
         source_len = len(self.corpus_frames)
         hits_len = len(hits)
         print("{} of {} ({:.2f}) has the word {}".format(hits_len, source_len, (1.0 * hits_len) / source_len, word))
@@ -178,7 +179,7 @@ class CorpusFrames:
         for index, r in hits.iterrows():
             output += "\n==== id:{} date:{} title:{} catalogue:{}\n".format(index, r['date'], r['title'], r['catalogue'])
             # we output the matched sentences for each article
-            sentences = r['content'].split('.')
+            sentences = r[column].split('.')
             nr_s = 1
             for s in sentences:
                 if s.find(word) > 0:
@@ -187,21 +188,22 @@ class CorpusFrames:
         print(output)
         return hits
 
-    def find_korean_words_with_prefix(self, prefix,  prefix_size= None, frames=None):
-        regx = str(prefix) + r'\p{IsHangul}*'
+    def find_korean_words_with_prefix(self, prefix,  prefix_size= None, column="content", frames=None):
+        regx =  str(prefix) + '\p{IsHangul}*'
         if prefix_size:
             regx = str(prefix) + r'\p{IsHangul}' + '{' + str(prefix_size) + '}'
-        return self.re_find_word_in_content(regx, frames)
+        return self.re_find_word_in_content(regx, column, frames)
 
-    def find_korean_words_with_suffix(self, suffix,  prefix_size= None, frames=None):
+    def find_korean_words_with_suffix(self, suffix,  prefix_size= None, column="content", frames=None):
         regx = r'\p{IsHangul}*' + suffix
         if prefix_size:
             regx = r'\p{IsHangul}' + '{' + str(prefix_size) + '}' + suffix
-        return self.re_find_word_in_content(regx, frames)
+        return self.re_find_word_in_content(regx, column, frames)
 
-    def re_find_word_in_content(self, rexp, frames=None):
+    def re_find_word_in_content(self, rexp, column="content", frames=None):
         source = frames if frames else self.corpus_frames
-        hit_source = source.content.apply(lambda x: len(regex.findall(rexp, x.replace('\r\n','').strip())) > 0)
+        col = source[column]
+        hit_source = col.apply(lambda x: len(regex.findall(rexp, x.replace('\r\n','').strip())) > 0)
         hits = source[hit_source]
         source_len = len(self.corpus_frames)
         hits_len = len(hits)       
@@ -211,7 +213,7 @@ class CorpusFrames:
         for index, r in hits.iterrows():
             output += "\n==== id:{} date:{} title:{} catalogue:{}\n".format(index, r['date'], r['title'], r['catalogue'])
             # we output the matched sentences for each article
-            sentences = r['content'].split('.')    
+            sentences = r[column].split('.')    
             nr_s = 1
             for s in sentences:
                 content = s.replace('\r\n', "").strip()

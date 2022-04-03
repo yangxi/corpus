@@ -193,7 +193,7 @@ class TaggedArticle:
     #   PREFIX_eroot_words:
     #   PREFIX_oroot_words:
     def parse_korean_word_root_line(self, prefix, korean_root_line):
-            kmap = {"k":"{}_kroot_words".format(prefix), "K":"{}_kroot_words".format(prefix),"c":"{}_croot_words".format(prefix),"e":"{}_oeoot_words".format(prefix),"o":"{}_oroot_words".format(prefix)}
+            kmap = {"k":"{}_kroot_words".format(prefix), "K":"{}_kroot_words".format(prefix),"c":"{}_croot_words".format(prefix),"e":"{}_eroot_words".format(prefix),"o":"{}_oroot_words".format(prefix)}
             kv = self.kv_from_line(korean_root_line, kmap)            
             nr_key = len(list(kv.keys()))
             if (nr_key != 4):
