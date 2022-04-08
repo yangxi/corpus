@@ -188,6 +188,10 @@ class CorpusFrames:
         print(output)
         return hits
 
+    def add_korean_word_size(self, size, newcol, column="content", frames=None):
+        regx = r'\p{IsHangul}' + '{' + str(size) + '}'
+        return self.re_find_word_in_content(regx, column, frames, newcol)
+
     def find_korean_words_with_prefix(self, prefix,  prefix_size= None, column="content", frames=None):
         regx =  str(prefix) + '\p{IsHangul}*'
         if prefix_size:
@@ -200,22 +204,32 @@ class CorpusFrames:
             regx = r'\p{IsHangul}' + '{' + str(prefix_size) + '}' + suffix
         return self.re_find_word_in_content(regx, column, frames)
 
-    def re_find_word_in_content(self, rexp, column="content", frames=None):
+    def re_find_word_in_content(self, rexp, column="content", frames=None, newcol=None):
         source = frames if frames else self.corpus_frames
         col = source[column]
         hit_source = col.apply(lambda x: len(regex.findall(rexp, x.replace('\r\n','').strip())) > 0)
         hits = source[hit_source]
         source_len = len(self.corpus_frames)
-        hits_len = len(hits)       
+        hits_len = len(hits)
         # iterate the hits
         output = ""
         matched_words = {}
-        for index, r in hits.iterrows():
+        if newcol:
+            source[newcol] = 0
+            for index, r in hits.iterrows():
+                if newcol:
+                    hit_words = regex.findall(rexp, r[column].replace('\r\n', ''))
+                    if len(hit_words) > 0:
+                        source.at[index,newcol] = len(hit_words)
+            print("Hits:{}".format(len(hits)))
+            return
+        for index, r in hits.iterrows():  
             output += "\n==== id:{} date:{} title:{} catalogue:{}\n".format(index, r['date'], r['title'], r['catalogue'])
             # we output the matched sentences for each article
             sentences = r[column].split('.')    
             nr_s = 1
-            for s in sentences:
+            nr_words = 0
+            for s in sentences:                
                 content = s.replace('\r\n', "").strip()
 #                print("s.findall {} {}".format(r, content))
                 words = regex.findall(rexp, content)                
