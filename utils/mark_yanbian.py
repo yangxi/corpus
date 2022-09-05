@@ -1,6 +1,48 @@
-import sys
+import sys, os, json
 from word_root import parse_line
-from yanbiandaily import YanbianDaily
+from yanbiandaily import YawonbianDaily
+
+class MarkArticles:
+    def __init__(self, corpus_path):        
+        self.articles = []
+        self.corpus_path = corpus_path
+        corpus_source_file = corpus_path + '/source.json'
+        if os.path.exists(corpus_source_file):
+            with open(corpus_source_file) as sf:
+                self.articles = json.load(sf)
+    def parse_articles(self):
+        for i in range(0, len(self.articles)):
+            # parse self.articles[i] and generate corpus_path/$i.txt
+        # generate corpus_path/article.json
+    def parse_article(self, article):
+        title = article["title"]
+        content = article["content"]
+        tag_title = parse_line(title)
+        tag_content = parse_line(content)
+        article["yanbian_root_tag"] = {"title": tag_title, "content": tag_content}
+        yanbian.pages_dirty = True
+    tag_title = article["yanbian_root_tag"]["title"]
+    tag_content = article["yanbian_root_tag"]["content"]
+    yanbian.update_pages()
+    if outputfile == None:
+        outputfile = get_output_name(article)
+    output = ""
+    output += "url:{}\n".format(url)
+    output += "=============================\n"
+    output += get_root_usage(tag_title)
+    output += tag_title["view"]
+    output += "=============================\n"
+    output += get_root_usage(tag_content)
+    output += tag_content["view"]
+    # output += "=============================\n"
+    # output += "{}".format(tag_title)
+    # output += "=============================\n"
+    # output += "{}".format(tag_content)
+    print(output)
+    with open(outputfile,'w') as outf:
+        print("Write the view to file:{}".format(outputfile))
+        outf.write(output)
+    def parse_article():
 
 def get_output_name(article):
     catalogue = article["catalogue"]
@@ -62,43 +104,14 @@ def get_root_usage(tag):
     ret += "ChineseRoot:{}\n".format(kr_ch_list)
     return ret
 
-def parse_article(url, outputfile=None):
-    yanbian = YanbianDaily()
-    article = yanbian.search_page(url)
-    if "yanbian_root_tag" not in article:
-        title = article["title"]
-        content = article["content"]
-        tag_title = parse_line(title)
-        tag_content = parse_line(content)
-        article["yanbian_root_tag"] = {"title": tag_title, "content": tag_content}
-        yanbian.pages_dirty = True
-    tag_title = article["yanbian_root_tag"]["title"]
-    tag_content = article["yanbian_root_tag"]["content"]
-    yanbian.update_pages()
-    if outputfile == None:
-        outputfile = get_output_name(article)
-    output = ""
-    output += "url:{}\n".format(url)
-    output += "=============================\n"
-    output += get_root_usage(tag_title)
-    output += tag_title["view"]
-    output += "=============================\n"
-    output += get_root_usage(tag_content)
-    output += tag_content["view"]
-    # output += "=============================\n"
-    # output += "{}".format(tag_title)
-    # output += "=============================\n"
-    # output += "{}".format(tag_content)
-    print(output)
-    with open(outputfile,'w') as outf:
-        print("Write the view to file:{}".format(outputfile))
-        outf.write(output)
+
 
 if __name__ == '__main__':
-    usage="python word_root.py url [target_file]"
-    if len(sys.argv) >= 3:
-        parse_article(sys.argv[1], sys.argv[2])
-    elif len(sys.argv) >= 2:
-        parse_article(sys.argv[1])
+    usage="python mark_corpus.py corpus_path"
+    # this command loads corpus_path/source.json, parse articles, and generate the output at corpus_path/ID.txt
+    if len(sys.argv) >= 2:
+        marker = MarkArticles(sys.argv[1])
+        marker.parse_articles()
+        marker.generate_tags()        
     else:
         print(usage)
