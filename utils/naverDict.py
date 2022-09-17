@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import requests
 import time
-from utils import char_type_detect
+from utils.utils import char_type_detect
 
 
 
@@ -29,12 +29,12 @@ class NaverDict:
                     return new_dict
         else:
             return {}
-        print("Load Naver Kr dict from {} with {} entries".format(self.dict_file, len(list(self.dict_file.keys()))))
+#        print("Load Naver Kr dict from {} with {} entries".format(self.dict_file, len(list(self.dict_file.keys()))))
     def save_dict(self):
         with open(self.dict_file, 'w') as df:
             df.write(json.dumps(self.kr_dict))
             self.dict_dirty = False
-    def parser_naver_html(self, kw, naver_page = None, wait_on_block = False):
+    def parser_naver_html(self, kw, naver_page = None, wait_on_block = False, verbose = False):
         if naver_page == None:
             if self.blocked == True:
                 now = datetime.datetime.now()
@@ -62,14 +62,14 @@ class NaverDict:
         kr_dict = t.find('div',{"class":"kr_dic_section"})
         if kr_dict == None:
             return None
-        print("Found kr_dict section")
+        print("Found kr_dict section") if verbose else 0
         kr_lst = kr_dict.find('ul',{"class":"lst_krdic"})
         if kr_lst == None:
             return None
         kr_lst = kr_lst.find_all('li')
         if len(kr_lst) == 0:
             return None
-        print("Found kr_dict list: {}".format(len(kr_lst)))
+        print("Found kr_dict list: {}".format(len(kr_lst))) if verbose else 0
         for e in kr_lst:
             # [{"word":kr, "explain":exp, "root":(root.text, root_type)}]
             d = {}
@@ -87,18 +87,18 @@ class NaverDict:
                 d["explain"] = ""
             root = title.find('span', {"class":"word_class"})
             if root:
-                print("Found word_class")
+                print("Found word_class") if verbose else 0
                 root_type = char_type_detect(root.text)
                 if root_type != 'en':
-                    print("WARN: {} is not English".format(root.text))
+                    print("WARN: {} is not English".format(root.text)) if verbose else 0
                 d["root"] = (root.text, root_type)
             else:
                 root = title.find('span', {"class": "word_class2"})
                 if root:
-                    print("Found word_class2")
+                    print("Found word_class2") if verbose else 0
                     root_type = char_type_detect(root.text)
                     if root_type != 'zh':
-                        print("WARN: {} is not Chinese".format(root.text))
+                        print("WARN: {} is not Chinese".format(root.text)) if verbose else 0
                     d["root"] = (root.text, root_type)
             ret.append(d)
         return ret
