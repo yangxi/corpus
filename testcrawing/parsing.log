@@ -1,0 +1,414 @@
+Process page http://www.iybrb.com/news/content/2022-06/09/60_556210.html
+WARN: an exception happened when parsking the ~/yanbian_daily.json cache: the JSON object must be str, bytes or bytearray, not TextIOWrapper 
+
+Got a newpage:{} {'url': 'http://www.iybrb.com/news/content/2022-06/09/60_556210.html', 'title': '총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성-연변일보 Yanbian Daily', 'catalogue': ['현재위치：', '홈 > ', '국내∙국제 > ', '세계는 지금 > ', '총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성'], 'date': '2022-06-09 09:47:58', 'content': '끔찍한 총기 란사 사건들에 신음하는 미국에서 지난 주말 또다시 총기 폭력이 곳곳을 강타했다.동부와 서부, 중부를 가리지 않고 주말 사이 벌어진 총격 사건들로 열명이 훌쩍 넘는 사망자가 발생했다.5일(현지시간) 미국의 비영리 연구단체 총기폭력아카이브(GVA)에 따르면 주말 사이 미국 전역에서 무려 133건의 총격 사건이 벌어졌다.이 가운데 총기 란사 사건만 10건에 달한다. 이 단체는 총격범을 제외하고 4명 이상이 총탄에 맞은 사건을 총기 란사로 정의한다.사망자만 3명에 달하는 총기 란사 사건도 3건이나 됐다.필라델피아 경찰은 전날 밤 필라델피아 도심 유흥가에서 복수의 총격범이 군중을 향해 마구 총을 쏴 최소 3명이 숨지고 최소 12명이 다쳤다고 밝혔다. 사망자는 20～30대 년령으로 2명이 남성, 1명이 녀성이다.사건이 발생한 필라델피아 사우스스트리트는 술집과 식당 밀집 지역으로 주말 밤 이 지역을 순찰하던 경찰관들이 자정 직전 여러 발의 총성을 듣고 곧장 달려가 대응에 나섰다.필라델피아 경찰 고위 간부인 D.F. 페이스는 기자회견에서 “총격이 시작됐을 때 다른 주말과 마찬가지로 사우스스트리트를 즐기는 수백명의 시민이 있었다.”면서 “순찰중이던 경관들은 복수의 총격범들이 군중을 향해 총을 쏘는 것을 목격했다.”고 말했다.한 경관이 총격범중 한명을 겨냥해 총을 쏘자 이 총격범이 총기를 버리고 달아났으나 그가 총탄에 맞았는지는 확실하지 않다고 페이스는 설명했다.현재까지 이 사건과 관련해 체포된 사람은 없다고 미국 언론들은 보도했다.현장에 있던 목격자 조 스미스(23살)는 필라델피아 인콰이어러와의 인터뷰에서 총성을 듣자 최근 미국 다른 지역에서 벌어진 총기 란사 사건들이 떠올랐다며 “사방에서 비명이 들렸다.”고 말했다.경찰은 현장에서 반자동 권총 2정을 수거했고 이중 1정은 확장탄창이 꽂혀있었다고 밝혔다. 또 경찰은 린근 상점들에 CCTV 확인을 요청해 용의자들을 추적중이다.경찰은 오후 브리핑을 통해 이 사건이 2개 그룹 사이의 충돌에서 비롯됐으며 사용된 총기만 5정에 달한다고 밝혔다.테네시주에 채터누가에서도 5일 새벽 총기 란사 사건으로 3명이 사망하고 14명이 부상당했다.AP통신에 따르면 이날 오전 2시 45분께 테네시주 채터누가의 한 나이트클럽 린근 도로에서 총격이 발생, 14명이 총상을 입었다.3명은 현장을 피하려다 차에 부딪혀 교통사고를 당했다.2명은 총상으로 1명은 교통사고로 각각 목숨을 잃었고 일부 피해자들은 중태인 것으로 알려졌다.17명의 사상자중 16명은 성인이며, 1명은 청소년인 것으로 전해졌다.아직 범행 동기는 밝혀지지 않았으나 경찰은 총격범들이 피해자 일부를 겨냥해 저지른 사건으로 보고 있다.디트로이트에서 북서쪽으로 160킬로메터 떨어진 미시간주 새기노에서도 이날 새벽 총격으로 3명이 사망했다.오전 2시 30분께 새기노에서 여러 발의 총성이 울려 퍼졌다는 신고가 접수돼 경찰이 출동했다고 AP통신이 지역 매체 M라이브를 인용해 전했다.남성 2명은 현장에서 즉사하고 녀성 1명은 병원으로 옮겨졌으나 이후 사망했다. 그 밖에 남성 2명이 총격으로 다쳤다.또 애리조나주 메사의 한 술집 밖에서 이날 오전 2시 30분께 총격 사건이 발생해 남성 2명이 사망하고 2명이 다쳤다고 메사 경찰이 밝혔다.부상자는 생명에 지장이 없는 것으로 전해졌다.경찰은 사건 직후 현장에서 급히 빠져나가던 자동차에 탄 3명을 붙잡아 조사중이다.이에 앞서 애리조나주 피닉스에서는 토요일인 4일 오전 1시께 상점가에서 총격 사건이 벌어져 14세 소녀가 숨지고 8명이 다쳤다.경찰 관계자는 지역 방송과의 인터뷰에서 말싸움 끝에 누군가 권총을 꺼내 군중을 향해 여러 발을 발사했다고 전했다.일련의 주말 총격 사건들은 흑인들을 겨냥한 뉴욕주 버펄로 슈퍼마켓 총기 란사, 21명의 목숨을 앗아간 텍사스주 유밸디 초등학교 총기 란사, 4명을 숨지게 한 오클라호마주 병원 총격 직후에 벌어져 충격을 더했다.GVA에 따르면 올해 들어 미국에서 발생한 총기 란사 사건은 총 245건에 이른다.주말에만 10건의 총격 사건이 발생한 필라델피아의 짐 케니 시장은 성명을 내고 “우리는 계속되는 폭력을 우리 나라의 삶의 방식으로 계속 받아들여서는 안된다.”며 총기 규제를 촉구했다. \u3000\u3000외신종합', 'html': '<!doctype html>\r\n<html><head>\r\n<meta charset="utf-8">\r\n<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">\r\n<meta name="viewport" content="user-scalable=yes,initial-scale=0,minimum-scale=0,maximum-scale=10.0">\r\n<link rel="stylesheet" type="text/css" media="screen" href="http://a.iybrb.com/templateRes/201806/14/176/resource/CSS/base-v1.css?04" />\r\n<script type="text/javascript" src="http://a.iybrb.com/templateRes/201806/14/176/resource/Javascript/jquery-1.12.4.min.js"></script>\r\n<script type="text/javascript" src="http://a.iybrb.com/templateRes/201806/14/176/resource/Javascript/common.js?1"></script>\r\n<link rel="shortcut icon" type="image/ico" href="http://a.iybrb.com/templateRes/201806/14/176/resource/favicon.ico" />\r\n\r\n<title>총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성-연변일보 Yanbian Daily</title>\r\n\r\n<link rel="stylesheet" href="http://a.iybrb.com/templateRes/201806/21/187/resource/css/detail.css?6" />\r\n<script type="text/javascript">isMenuFixed = false;\r\n$(document).ready(function() {\r\n\tvar xbiaoti = $("#xbiaoti");\r\n\tvar xtop = xbiaoti.position().top + xbiaoti.outerHeight();\r\n\t$(window).scroll(function() {\r\n\t\tif ($(window).scrollTop() > xtop) {\r\n\t\t\txbiaoti.attr(\'class\',\'xbiaoti\');\r\n\t\t} else {\r\n\t\t\txbiaoti.attr(\'class\',\'bt\');\r\n\t\t}\r\n\t});\r\n});\r\n</script>\r\n</head>\r\n<body>\r\n<div class="cls" id="atop">\r\n  <div class="mcw">\r\n    <ul>\r\n      <li><a href="http://www.iybrb.com/content/2018-06/15/1129_315477.html" target="_blank">연변일보 APP 다운로드</a></li>\r\n      <li><a href="http://www.ybrbnews.cn/" target="_blank">延边新闻网&nbsp;</a></li>\r\n      <li><a href="http://ipaper.iybrb.com/Y9cN2/daSjKAx.aspx" target="_blank">종합신문</a></li>\r\n      <li><a href="http://ipaper.iybrb.com/Sj4vM9/Yt5Rat6t.aspx" target="_blank">지면보기</a></li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n<div class="mcw">\r\n  <div class="cls">\r\n    <ul class="logocon">\r\n              <li class="a1"><img src="http://www.iybrb.com/ceshi/xinwen/img/2018-05/28/305e0aff-bfe0-417e-a6f9-ad1f22049afb.jpg" style="width:160px;height:80px;" alt="" /></li>\r\n        <li class="a2"><a href="http://www.iybrb.com/" target="_blank"><img src="http://www.iybrb.com/ceshi/xinwen/img/2018-05/28/f0cea0a5-ba69-461b-a32b-e05837f47a4b.png" style="width:196px;height:80px;" alt="" /></a></li>\r\n\r\n    </ul>\r\n  </div>\r\n  <div id="sumenu2">  \t\r\n\t  <div id="imoxw2" class="cls">\r\n\t\t<div id="imenucon2">\r\n\t\t  <div class="a"> <img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/btnsubmenu.png" style="width: 40px; height: 40px;" id="btn_sub_menu" /> </div>\r\n\t\t  <div class="b">\r\n\t\t\t<ul id="imxs2">\r\n\t\t\t  \r\n\t\t\t\t\t\t\t\t\t\t<li data_id="1"><a href="http://www.iybrb.com/pol/1.html">정치</a> </li>\r\n\t\t\t\t\t<li data_id="2"><a href="http://www.iybrb.com/eco/2.html">경제</a> </li>\r\n\t\t\t\t\t<li data_id="4"><a href="http://www.iybrb.com/soc/4.html">사회</a> </li>\r\n\t\t\t\t\t<li data_id="5"><a href="http://www.iybrb.com/civ/5.html">문화</a> </li>\r\n\t\t\t\t\t<li data_id="53"><a href="http://www.iybrb.com/com/53.html">평론</a> </li>\r\n\t\t\t\t\t<li data_id="58"><a href="http://www.iybrb.com/news/58.html">국내∙국제</a> </li>\r\n\t\t\t\t\t<li data_id="33"><a href="http://www.iybrb.com/sport/33.html">스포츠</a> </li>\r\n\t\t\t\t\t<li data_id="39"><a href="http://www.iybrb.com/env/39.html">사진∙영상</a> </li>\r\n\t\t\t\t\t<li data_id="44"><a href="http://www.iybrb.com/pla/44.html">기획</a> </li>\r\n\t\t\t\t\t<li data_id="49"><a href="http://www.iybrb.com/ser/49.html">련재</a> </li>\r\n\t\t\t\t\t<li data_id="1398"><a href="http://www.iybrb.com/channel/list/1398.html">청도채널</a> </li>\r\n\r\n\t\t\t  <li data_id="42"><a href="http://news.iybrb.com/swiiczv61/">中文</a> </li>\r\n\t\t\t  <!-- <a href="http://www.iybrb.com/env/42.html"> -->\r\n\t\t\t</ul>\r\n\t\t\t<span class="bg_on"> <img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/menugnb.png" alt="" /></span> </div>\r\n\t\t  <!--div class="d"> <a href="http://a.iybrb.com:9876/sso-saas/user/connection/isConnected" target="_blank"></a><img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/btnuser.png" style="width: 40px; height: 40px;" /> </div-->\r\n\t\t  <div class="c" style="display:none;"> <img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/btnsearch.png" style="width: 40px; height: 40px;" id="btn_search" /> </div>\r\n\t\t</div>    \r\n\t\t<ul id="xme8" class="lm202">\r\n\t\t\t<li id="xme81"></li>\r\n\t\t\t<li id="xme82"></li>\r\n\t\t</ul>\r\n\r\n\t<ul id="lm1" class="lm202"><li id="zLm_15"><a href="http://www.iybrb.com/pol/15.html">정치일반</a></li><li id="zLm_16"><a href="http://www.iybrb.com/pol/16.html">당위∙당무</a></li><li id="zLm_17"><a href="http://www.iybrb.com/pol/17.html">정부∙행정</a></li><li id="zLm_18"><a href="http://www.iybrb.com/pol/18.html">인대∙정협</a></li></ul>\r\n\t<ul id="lm2" class="lm202"><li id="zLm_7"><a href="http://www.iybrb.com/eco/7.html">경제일반</a></li><li id="zLm_9"><a href="http://www.iybrb.com/eco/9.html">산업∙건설</a></li><li id="zLm_10"><a href="http://www.iybrb.com/eco/10.html">농업</a></li><li id="zLm_63"><a href="http://www.iybrb.com/eco/63.html">과학∙IT</a></li><li id="zLm_11"><a href="http://www.iybrb.com/eco/11.html">부동산</a></li><li id="zLm_12"><a href="http://www.iybrb.com/eco/12.html">관광</a></li><li id="zLm_13"><a href="http://www.iybrb.com/eco/13.html">자동차</a></li><li id="zLm_14"><a href="http://www.iybrb.com/eco/14.html">소비</a></li></ul>\r\n\t<ul id="lm4" class="lm202"><li id="zLm_19"><a href="http://www.iybrb.com/soc/19.html">사회일반</a></li><li id="zLm_21"><a href="http://www.iybrb.com/soc/21.html">민생</a></li><li id="zLm_22"><a href="http://www.iybrb.com/soc/22.html">교육</a></li><li id="zLm_24"><a href="http://www.iybrb.com/soc/24.html">환경</a></li><li id="zLm_25"><a href="http://www.iybrb.com/soc/25.html">사건∙사고</a></li></ul>\r\n\t<ul id="lm5" class="lm202"><li id="zLm_26"><a href="http://www.iybrb.com/civ/26.html">문화일반</a></li><li id="zLm_27"><a href="http://www.iybrb.com/civ/27.html">해란강</a></li><li id="zLm_28"><a href="http://www.iybrb.com/civ/28.html">연예</a></li><li id="zLm_29"><a href="http://www.iybrb.com/civ/29.html">책</a></li><li id="zLm_30"><a href="http://www.iybrb.com/civ/30.html">멋</a></li><li id="zLm_31"><a href="http://www.iybrb.com/civ/31.html">건강</a></li></ul>\r\n\t<ul id="lm53" class="lm202"><li id="zLm_54"><a href="http://www.iybrb.com/com/54.html">사설</a></li><li id="zLm_55"><a href="http://www.iybrb.com/com/55.html">칼럼</a></li><li id="zLm_56"><a href="http://www.iybrb.com/com/56.html">시평</a></li><li id="zLm_1420"><a href="http://www.iybrb.com/com/1420.html">단상갤러리</a></li></ul>\r\n\t<ul id="lm58" class="lm202"><li id="zLm_59"><a href="http://www.iybrb.com/news/59.html">중국의 창</a></li><li id="zLm_60"><a href="http://www.iybrb.com/news/60.html">세계는 지금</a></li><li id="zLm_61"><a href="http://www.iybrb.com/news/61.html">반도뉴스</a></li><li id="zLm_62"><a href="http://www.iybrb.com/news/62.html">천하만사</a></li></ul>\r\n\t<ul id="lm33" class="lm202"><li id="zLm_34"><a href="http://www.iybrb.com/sport/34.html">스포츠일반</a></li><li id="zLm_35"><a href="http://www.iybrb.com/sport/35.html">우리축구</a></li><li id="zLm_36"><a href="http://www.iybrb.com/sport/36.html">생활체육</a></li><li id="zLm_37"><a href="http://www.iybrb.com/sport/37.html">스포츠스타</a></li><li id="zLm_38"><a href="http://www.iybrb.com/sport/38.html">올림픽∙월드컵</a></li></ul>\r\n\t<ul id="lm39" class="lm202"><li id="zLm_40"><a href="http://www.iybrb.com/env/40.html">사진속 연변</a></li><li id="zLm_66"><a href="http://www.iybrb.com/env/66.html">사진일반</a></li><li id="zLm_41"><a href="http://www.iybrb.com/env/41.html">지구촌</a></li><li id="zLm_355"><a href="http://www.iybrb.com/env/355.html">동영상</a></li></ul>\r\n\t<ul id="lm44" class="lm202"><li id="zLm_46"><a href="http://www.iybrb.com/pla/46.html">사랑한마당</a></li><li id="zLm_65"><a href="http://www.iybrb.com/pla/65.html">사람들</a></li><li id="zLm_47"><a href="http://www.iybrb.com/pla/47.html">맛기행</a></li><li id="zLm_48"><a href="http://www.iybrb.com/pla/48.html">겨레의 창</a></li></ul>\r\n\t<ul id="lm49" class="lm202"><li id="zLm_50"><a href="http://www.iybrb.com/ser/50.html">우리력사 바로알기</a></li><li id="zLm_51"><a href="http://www.iybrb.com/ser/51.html">조선족혁명투쟁사</a></li><li id="zLm_52"><a href="http://www.iybrb.com/ser/52.html"><사서>해석</a></li></ul>\r\n\r\n\t  </div>\r\n  </div>\r\n</div>\r\n\r\n<form name="sform" id="sform" action="http://218.27.203.6:11111/servlet/SearchServlet.do" target="_blank" method="post" style="margin:0px; padding:0px">\r\n<div class="proDiv">\r\n\t<div class="pserc"><img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/52102.jpg" /></div>\r\n\t<div class="pctex">\r\n\t\t<ul>\r\n\t\t\t<li><input maxlength="20" type="text" name="contentKey" id="contentKey" value="검색어를 입력하세요" title="검색어 입력" /></li>\r\n\t\t\t<li><input type="image" src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/930392.jpg" id="xc2p" /></li>\r\n\t\t</ul>\r\n\t</div>\r\n\t<div class="pclose"><img src="http://a.iybrb.com/templateRes/201806/13/175/resource/Image/btnclose.png" /></div>\r\n</div>\r\n<input type="hidden" name="op" value="single" />\r\n<input type="hidden" name="siteID" value="" />\r\n<select size="1" name="changeChannel" style="display:none;">\r\n<option value="1" selected="selected">网站端</option><option value="2">触屏端</option>\r\n</select>\r\n</form>\r\n\r\n\r\n<div class="tyuDiv">\r\n    <div class="tyumenu">\r\n        <ul>\r\n            <li><img src="http://www.iybrb.com/res/img/2018/btn-sub-menu-close.png" id="tyuclose" /></li>\r\n            <li><a href="http://iybrb.com/">홈</a></li>\r\n<li><a href="http://www.iybrb.com/pol/1.html">정치</a></li><li><a href="http://www.iybrb.com/eco/2.html">경제</a></li><li><a href="http://www.iybrb.com/soc/4.html">사회</a></li><li><a href="http://www.iybrb.com/civ/5.html">문화</a></li><li><a href="http://www.iybrb.com/com/53.html">평론</a></li><li><a href="http://www.iybrb.com/news/58.html">국내∙국제</a></li><li><a href="http://www.iybrb.com/sport/33.html">스포츠</a></li><li><a href="http://www.iybrb.com/env/39.html">사진∙영상</a></li><li><a href="http://www.iybrb.com/pla/44.html">기획</a></li><li><a href="http://www.iybrb.com/ser/49.html">련재</a></li>\r\n        </ul>\r\n    </div> \r\n    <div style="background-color:#000;font-size:2px;height:8px;"></div>\r\n    <div class="tyulist">\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/pol/1.html">정치</a></li><li><a href="http://www.iybrb.com/pol/15.html">정치일반</a></li><li><a href="http://www.iybrb.com/pol/16.html">당위∙당무</a></li><li><a href="http://www.iybrb.com/pol/17.html">정부∙행정</a></li><li><a href="http://www.iybrb.com/pol/18.html">인대∙정협</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/eco/2.html">경제</a></li><li><a href="http://www.iybrb.com/eco/7.html">경제일반</a></li><li><a href="http://www.iybrb.com/eco/9.html">산업∙건설</a></li><li><a href="http://www.iybrb.com/eco/10.html">농업</a></li><li><a href="http://www.iybrb.com/eco/63.html">과학∙IT</a></li><li><a href="http://www.iybrb.com/eco/11.html">부동산</a></li><li><a href="http://www.iybrb.com/eco/12.html">관광</a></li><li><a href="http://www.iybrb.com/eco/13.html">자동차</a></li><li><a href="http://www.iybrb.com/eco/14.html">소비</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/soc/4.html">사회</a></li><li><a href="http://www.iybrb.com/soc/19.html">사회일반</a></li><li><a href="http://www.iybrb.com/soc/21.html">민생</a></li><li><a href="http://www.iybrb.com/soc/22.html">교육</a></li><li><a href="http://www.iybrb.com/soc/24.html">환경</a></li><li><a href="http://www.iybrb.com/soc/25.html">사건∙사고</a></li>\r\n    </ul>\r\n    <ul  class="tyulmul">\r\n<li><a href="http://www.iybrb.com/civ/5.html">문화</a></li><li><a href="http://www.iybrb.com/civ/26.html">문화일반</a></li><li><a href="http://www.iybrb.com/civ/27.html">해란강</a></li><li><a href="http://www.iybrb.com/civ/28.html">연예</a></li><li><a href="http://www.iybrb.com/civ/29.html">책</a></li><li><a href="http://www.iybrb.com/civ/30.html">멋</a></li><li><a href="http://www.iybrb.com/civ/31.html">건강</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/com/53.html">평론</a></li><li><a href="http://www.iybrb.com/com/54.html">사설</a></li><li><a href="http://www.iybrb.com/com/55.html">칼럼</a></li><li><a href="http://www.iybrb.com/com/56.html">시평</a></li><li><a href="http://www.iybrb.com/com/1420.html">단상갤러리</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/news/58.html">국내∙국제</a></li><li><a href="http://www.iybrb.com/news/59.html">중국의 창</a></li><li><a href="http://www.iybrb.com/news/60.html">세계는 지금</a></li><li><a href="http://www.iybrb.com/news/61.html">반도뉴스</a></li><li><a href="http://www.iybrb.com/news/62.html">천하만사</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/sport/33.html">스포츠</a></li><li><a href="http://www.iybrb.com/sport/34.html">스포츠일반</a></li><li><a href="http://www.iybrb.com/sport/35.html">우리축구</a></li><li><a href="http://www.iybrb.com/sport/36.html">생활체육</a></li><li><a href="http://www.iybrb.com/sport/37.html">스포츠스타</a></li><li><a href="http://www.iybrb.com/sport/38.html">올림픽∙월드컵</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/env/39.html">사진∙영상</a></li><li><a href="http://www.iybrb.com/env/40.html">사진속 연변</a></li><li><a href="http://www.iybrb.com/env/66.html">사진일반</a></li><li><a href="http://www.iybrb.com/env/41.html">지구촌</a></li><li><a href="http://www.iybrb.com/env/355.html">동영상</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/pla/44.html">기획</a></li><li><a href="http://www.iybrb.com/pla/46.html">사랑한마당</a></li><li><a href="http://www.iybrb.com/pla/65.html">사람들</a></li><li><a href="http://www.iybrb.com/pla/47.html">맛기행</a></li><li><a href="http://www.iybrb.com/pla/48.html">겨레의 창</a></li>\r\n    </ul>\r\n    <ul class="tyulmul">\r\n<li><a href="http://www.iybrb.com/ser/49.html">련재</a></li><li><a href="http://www.iybrb.com/ser/50.html">우리력사 바로알기</a></li><li><a href="http://www.iybrb.com/ser/51.html">조선족혁명투쟁사</a></li><li><a href="http://www.iybrb.com/ser/52.html"><사서>해석</a></li>\r\n    </ul>\r\n    </div>\r\n</div>\r\n<script type="text/javascript" src="http://a.iybrb.com/templateRes/201806/13/175/resource/js/top.js?03"></script>  \r\n<div class="mcw">\r\n\t<div id="content">\r\n\t\t<div class="mbx"><a>현재위치：</a>\r\n<a href="http://www.iybrb.com/index.html" target="_self">홈 &gt; </a>\r\n<a href="http://www.iybrb.com/news/58.html" target="_self">국내∙국제 &gt; </a>\r\n<a href="http://www.iybrb.com/news/60.html" target="_self">세계는 지금 &gt; </a>\r\n\r\n\r\n<a>총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성</a>\r\n\r\n</div>\r\n\t\t<div class="sa">\r\n\t\t\r\n\r\n\t\t\t<div class="yt"></div>\r\n\t\t\t<div class="bt" id="xbiaoti">총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성</div>\r\n\t\t\t<div class="fbt"></div>\r\n\t\t\t<div class="rlox">\r\n\t\t\t\t<p>2022-06-09 09:47:58</p>\r\n\t\t\t\t<div id="ftoc">\r\n\t\t\t\t\t<span class="a1" onClick="document.execCommand(\'print\');" title="이메일보내기"></span>\r\n\t\t\t\t\t<a href="mailto:webmaster@iybrb.com"><span class="a2" title="이메일보내기"></span></a>\r\n\t\t\t\t\t<span class="a3" onClick="FontSizeChange(&#39;content&#39;, &#39;Down&#39;);" title="글씨크기 작게"></span>\r\n\t\t\t\t\t<span class="a4" onClick="FontSizeChange(&#39;content&#39;, &#39;Up&#39;);" title="글씨크기 크게"></span>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class="lix"></div>\r\n\t\t\t<div class="content">\r\n\t\t\t\t<!--enpcontent--><p>끔찍한 총기 란사 사건들에 신음하는 미국에서 지난 주말 또다시 총기 폭력이 곳곳을 강타했다.<br/></p><p>동부와 서부, 중부를 가리지 않고 주말 사이 벌어진 총격 사건들로 열명이 훌쩍 넘는 사망자가 발생했다.<br/></p><p>5일(현지시간) 미국의 비영리 연구단체 총기폭력아카이브(GVA)에 따르면 주말 사이 미국 전역에서 무려 133건의 총격 사건이 벌어졌다.<br/></p><p>이 가운데 총기 란사 사건만 10건에 달한다. 이 단체는 총격범을 제외하고 4명 이상이 총탄에 맞은 사건을 총기 란사로 정의한다.</p><p>사망자만 3명에 달하는 총기 란사 사건도 3건이나 됐다.<br/></p><p>필라델피아 경찰은 전날 밤 필라델피아 도심 유흥가에서 복수의 총격범이 군중을 향해 마구 총을 쏴 최소 3명이 숨지고 최소 12명이 다쳤다고 밝혔다. 사망자는 20～30대 년령으로 2명이 남성, 1명이 녀성이다.<br/></p><p>사건이 발생한 필라델피아 사우스스트리트는 술집과 식당 밀집 지역으로 주말 밤 이 지역을 순찰하던 경찰관들이 자정 직전 여러 발의 총성을 듣고 곧장 달려가 대응에 나섰다.<br/></p><p>필라델피아 경찰 고위 간부인 D.F. 페이스는 기자회견에서 “총격이 시작됐을 때 다른 주말과 마찬가지로 사우스스트리트를 즐기는 수백명의 시민이 있었다.”면서 “순찰중이던 경관들은 복수의 총격범들이 군중을 향해 총을 쏘는 것을 목격했다.”고 말했다.<br/></p><p>한 경관이 총격범중 한명을 겨냥해 총을 쏘자 이 총격범이 총기를 버리고 달아났으나 그가 총탄에 맞았는지는 확실하지 않다고 페이스는 설명했다.<br/></p><p>현재까지 이 사건과 관련해 체포된 사람은 없다고 미국 언론들은 보도했다.<br/></p><p>현장에 있던 목격자 조 스미스(23살)는 필라델피아 인콰이어러와의 인터뷰에서 총성을 듣자 최근 미국 다른 지역에서 벌어진 총기 란사 사건들이 떠올랐다며 “사방에서 비명이 들렸다.”고 말했다.<br/></p><p>경찰은 현장에서 반자동 권총 2정을 수거했고 이중 1정은 확장탄창이 꽂혀있었다고 밝혔다. 또 경찰은 린근 상점들에 CCTV 확인을 요청해 용의자들을 추적중이다.<br/></p><p>경찰은 오후 브리핑을 통해 이 사건이 2개 그룹 사이의 충돌에서 비롯됐으며 사용된 총기만 5정에 달한다고 밝혔다.<br/></p><p>테네시주에 채터누가에서도 5일 새벽 총기 란사 사건으로 3명이 사망하고 14명이 부상당했다.<br/></p><p>AP통신에 따르면 이날 오전 2시 45분께 테네시주 채터누가의 한 나이트클럽 린근 도로에서 총격이 발생, 14명이 총상을 입었다.<br/></p><p>3명은 현장을 피하려다 차에 부딪혀 교통사고를 당했다.<br/></p><p>2명은 총상으로 1명은 교통사고로 각각 목숨을 잃었고 일부 피해자들은 중태인 것으로 알려졌다.<br/></p><p>17명의 사상자중 16명은 성인이며, 1명은 청소년인 것으로 전해졌다.<br/></p><p>아직 범행 동기는 밝혀지지 않았으나 경찰은 총격범들이 피해자 일부를 겨냥해 저지른 사건으로 보고 있다.<br/></p><p>디트로이트에서 북서쪽으로 160킬로메터 떨어진 미시간주 새기노에서도 이날 새벽 총격으로 3명이 사망했다.<br/></p><p>오전 2시 30분께 새기노에서 여러 발의 총성이 울려 퍼졌다는 신고가 접수돼 경찰이 출동했다고 AP통신이 지역 매체 M라이브를 인용해 전했다.<br/></p><p>남성 2명은 현장에서 즉사하고 녀성 1명은 병원으로 옮겨졌으나 이후 사망했다. 그 밖에 남성 2명이 총격으로 다쳤다.<br/></p><p>또 애리조나주 메사의 한 술집 밖에서 이날 오전 2시 30분께 총격 사건이 발생해 남성 2명이 사망하고 2명이 다쳤다고 메사 경찰이 밝혔다.<br/></p><p>부상자는 생명에 지장이 없는 것으로 전해졌다.<br/></p><p>경찰은 사건 직후 현장에서 급히 빠져나가던 자동차에 탄 3명을 붙잡아 조사중이다.<br/></p><p>이에 앞서 애리조나주 피닉스에서는 토요일인 4일 오전 1시께 상점가에서 총격 사건이 벌어져 14세 소녀가 숨지고 8명이 다쳤다.<br/></p><p>경찰 관계자는 지역 방송과의 인터뷰에서 말싸움 끝에 누군가 권총을 꺼내 군중을 향해 여러 발을 발사했다고 전했다.<br/></p><p>일련의 주말 총격 사건들은 흑인들을 겨냥한 뉴욕주 버펄로 슈퍼마켓 총기 란사, 21명의 목숨을 앗아간 텍사스주 유밸디 초등학교 총기 란사, 4명을 숨지게 한 오클라호마주 병원 총격 직후에 벌어져 충격을 더했다.<br/></p><p>GVA에 따르면 올해 들어 미국에서 발생한 총기 란사 사건은 총 245건에 이른다.<br/></p><p>주말에만 10건의 총격 사건이 발생한 필라델피아의 짐 케니 시장은 성명을 내고 “우리는 계속되는 폭력을 우리 나라의 삶의 방식으로 계속 받아들여서는 안된다.”며 총기 규제를 촉구했다. <br/></p><p>\u3000\u3000외신종합</p><!--/enpcontent--><!--enpproperty <articleid>556210</articleid><date>2022-06-09 09:47:58:391</date><author></author><title>총기 폭력에 신음하는 미국…지난  주말에만 133곳서  총성</title><keyword></keyword><subtitle></subtitle><introtitle></introtitle><siteid>1</siteid><nodeid>60</nodeid><nodename>세계는 지금</nodename><nodesearchname>세계는 지금</nodesearchname><picurl>http://www.iybrb.com/news/images/2022-06/09/d05c37e9-54d9-40ff-a928-1b4a1d772d7a.png</picurl><url>http://www.iybrb.com/news/content/2022-06/09/60_556210.html</url><urlpad>http://www.iybrb.com/app/news/content/2022-06/09/60_556210.html</urlpad><sourcename></sourcename><abstract>끔찍한 총기 란사 사건들에 신음하는 미국에서 지난 주말 또다시 총기 폭력이 곳곳을 강타했다.동부와 서부, 중부를 가리지 않고 주말 사이 벌어진 총격 사건들로 열명이 훌쩍 넘는 사망자가 발생했다.5일(현지시간) 미국의 비영리 연구단체 총기폭력아카이브(GVA)에 따르면 주말 사이 미국 전역에서 무려 133건의 총격 사건이 벌어졌다.</abstract><channel>1</channel>/enpproperty-->\r\n\t\t\t</div>\r\n\t\t\t<input  type="hidden" id="DocIDforCount" name="DocIDforCount" value="556210" />\r\n\t\t\t \r\n\r\n<script>//$(document).ready(function(){$("embed").css({"width":"640px" , "height":"480px"});});\r\n    $(document).ready(function () {\r\n\t$("embed").each(function () {var embed = $(this);var parentNode = embed.parent();parentNode = embed.parent().html("<div></div>");$("<video/>", {"preload": "auto","controls": "controls","autoplay": "false",html: \'<source src="\' + embed.attr("urlapp") + \'" type="video/mp4" />您的浏览器不支持Video标签。\',}).appendTo(parentNode);});$("video").on("loadedmetadata", function () {var videoWidth = this.videoWidth;console.log(videoWidth);if (videoWidth > 650) {$(this).css("width", "650px");}}) \r\n    });\r\n</script>\t\r\n\t\t</div>\r\n\t\t<div class="sc">\r\n\t\t\t<div class="best_click_zone"> \r\n\t\t\t  <style type="text/css" media="screen">.clickRandking{border:0px solid #dedee8; width:246px;z-index:8888;width:100%;}.clickRandking *{padding:0px;margin:0px;font-size:12px;}.clickRandking a{text-decoration:none; color:#292929;}.clickRandking a:hover{color:#ff4455;}.clickRandking li{list-style:none;}#clickRandkingTitle{background-color:#f2f2f2;height:30px;border-bottom:1px solid #d1d5d9;font-size:12px;}#clickRandkingTitle li{float:left;line-height:30px;height:30px;}#clickRandkingTitle li.a1{width:82px;text-align:center;font-weight:bold;}#clickRandkingTitle li.a2{padding:0px 5px;border-left:1px solid #d1d5d9; cursor:pointer;}#clickRandkingContent{margin:0px 5px 5px 5px;overflow:hidden;padding-top:10px;}#clickRandkingContent .letter1 ,#clickRandkingContent .letter2 {position:relative; left:5px; top:2px; display:block; width:16px; height:16px; ; line-height:16px; text-align:center; font-size:11px; color:#fff; border-radius: 2px; font-family: Tahoma;margin-right:15px;}#clickRandkingContent .letter1 {background:#fa702c;border:1px solid #f45e14;}#clickRandkingContent .letter2 {background:#b0b0b0;border:1px solid #969696;}#clickRandkingContent .uix{display:none;}#clickRandkingContent ul{clear:both;border-bottom:1px solid #dedee8;padding-bottom:15px; height:35px;padding-top:10px;line-height:24px;overflow:hidden;}#clickRandkingContent li{float:left;height:35px;}#clickRandkingContent a{font-size:14px;}#clickRandkingContent ul:last-child{border:0;}#clickRandkingContent ul.tgx{}#clickRandkingContent ul.tgx li.tg1{width:20px;margin-top:3px;}#clickRandkingContent ul.tgx li.tg2{width:200px;margin-left:5px;}</style><div class="clickRandking">\t<div id="clickRandkingTitle">\t    <ul>\t        <li>&nbsp;</li>\t        <li class="a1">많이 본 기사</li>\t        <li class="a2" data_pos="1" id="rede">종합</li>\t        <li class="a2" data_pos="2">스포츠</li>\t        <li class="a2" data_pos="3">경제</li>\t        <li class="a2" data_pos="4">사회</li>\t    </ul>\t</div>\t<div id="clickRandkingContent">\t    <div id="clickRandkingContent_1"><ul class="tgx"><li class="tg1"><span class="letter1">1</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555677.html" target="_blank"> 올 슈퍼리그,\xa0조선족 선수들\xa0활약 기대</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">2</span></li><li class="tg2"><a href="http://www.iybrb.com/pol/content/2022-06/08/15_556006.html" target="_blank"> 전염병 류입 류출 반등을 엄밀히 방지하고 전염병 예방통제의 튼튼한 장벽 구축해야</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">3</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/07/19_555823.html" target="_blank"> 도시농촌관리국 시장감독국 아침시장, 야시장 정돈</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">4</span></li><li class="tg2"><a href="http://www.iybrb.com/news/content/2022-06/08/60_556031.html" target="_blank"> 독일 렬차 탈선 배합사진</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">5</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555679.html" target="_blank"> 무릎이 아플수록 움직여라!    □ 창문</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">6</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556044.html" target="_blank"> 새 서광을 맞아 발돋음하는 로년교육</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">7</span></li><li class="tg2"><a href="http://www.iybrb.com/pol/content/2022-06/08/15_556010.html" target="_blank"> 행복한 생활 누리며 당의 은정에 감격</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">8</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/22_556103.html" target="_blank"> 대학입시는 또다른 출발선      □ 김일복</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">9</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556037.html" target="_blank"> 안도 향촌관광업 발전시켜 도시 농촌 공동번영 추진</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">10</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556036.html" target="_blank"> 방역기간 육우 사육호에 대한 봉사질 높여</a></li></ul></div>\t    <div id="clickRandkingContent_2" class="uix"><ul class="tgx"><li class="tg1"><span class="letter1">1</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555677.html" target="_blank"> 올 슈퍼리그,\xa0조선족 선수들\xa0활약 기대</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">2</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555679.html" target="_blank"> 무릎이 아플수록 움직여라!    □ 창문</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">3</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555676.html" target="_blank"> 웨일즈 64년 만에 월드컵 본선행</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">4</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555675.html" target="_blank"> 나달 프랑스오픈 우승…메이저 22승 고지에 올라</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">5</span></li><li class="tg2"><a href="http://www.iybrb.com/sport/content/2022-06/06/34_555678.html" target="_blank"> 2022 중국도시대중바둑단체리그전 결승전 개시</a></li></ul></div>\t    <div id="clickRandkingContent_3" class="uix"><ul class="tgx"><li class="tg1"><span class="letter1">1</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556037.html" target="_blank"> 안도 향촌관광업 발전시켜 도시 농촌 공동번영 추진</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">2</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556036.html" target="_blank"> 방역기간 육우 사육호에 대한 봉사질 높여</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">3</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/07/7_555817.html" target="_blank"> 연길시 공원로 연길공원구간 구름다리 공사 현장</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">4</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556039.html" target="_blank"> 청도 ‘버섯공장’ 스마트 재배로 “비용 줄고 리득 오르고”</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">5</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556035.html" target="_blank"> 돈화 중성촌 조선족특색민속촌 건설 박차</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">6</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556038.html" target="_blank"> 우리 주  밭 파종기계화 작업 전부 결속</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">7</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556034.html" target="_blank"> 길림성 1000억급인삼우세산업 일떠세운다</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">8</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556009.html" target="_blank"> 훈춘종합보세구올해 1000대 완성차 수출 예정 \u200b</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">9</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/08/7_556007.html" target="_blank"> 돈화 ‘기업봉사월’활동 펼쳐</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">10</span></li><li class="tg2"><a href="http://www.iybrb.com/eco/content/2022-06/09/10_556239.html" target="_blank"> 연길 첫패로 도시 주택 구매한29세대 농가에 보조금을 지급</a></li></ul></div>\t    <div id="clickRandkingContent_4" class="uix"><ul class="tgx"><li class="tg1"><span class="letter1">1</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/07/19_555823.html" target="_blank"> 도시농촌관리국 시장감독국 아침시장, 야시장 정돈</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">2</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556044.html" target="_blank"> 새 서광을 맞아 발돋음하는 로년교육</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">3</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/22_556103.html" target="_blank"> 대학입시는 또다른 출발선      □ 김일복</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">4</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/22_556011.html" target="_blank"> ‘화이팅!’…열띤 응원 속에서 대학입시 시작</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter1">5</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556042.html" target="_blank"> 꾸준한 운동, 온화한 성격…장수비결</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">6</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556041.html" target="_blank"> 장수자들은 어떤 이들인가?□ 창 문</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">7</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/09/19_556268.html" target="_blank"> 연길 반년 지속된 소음 문제 해결</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">8</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556043.html" target="_blank"> 생활습관과 로인들의 영양</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">9</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/19_556017.html" target="_blank"> 왕청현적십자회 수험생 위해 ‘애심차대’ 제공</a></li></ul><ul class="tgx"><li class="tg1"><span class="letter2">10</span></li><li class="tg2"><a href="http://www.iybrb.com/soc/content/2022-06/08/22_556098.html" target="_blank"> 연변대학 올 신입생모집정책 발표</a></li></ul></div>\t</div></div><script type="text/javascript">    $(document).ready(function() {        $("#clickRandkingTitle li.a2").hover(function() {            $("#clickRandkingTitle li.a2").css({ "background-color": "#f2f2f2", "height": "30px" });            $(this).css({ "background-color": "#ffffff", "height": "31px" });            var uix = $(this).attr("data_pos");            $("#clickRandkingContent div").hide();            $("#clickRandkingContent_" + uix).show();        });        $("#rede").css({ "background-color": "#ffffff", "height": "31px" });    });</script> \r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n\r\n<script type="text/javascript" src="http://a.iybrb.com:6543/amucsite/stat/WebClick.js"></script>\r\n\r\n<div class="mcw"  style="text-align: center">\r\n    <div class="ow12">\r\n        <ul>\r\n            \r\n                        <li><a href="http://www.iybrb.com/news/content/2018-04/25/64_179886.html" target="_blank">연변일보</a></li>\r\n            <li><a href="http://www.iybrb.com/news/content/2018-04/25/64_179887.html" target="_blank">리용약관</a></li>\r\n            <li><a href="http://www.iybrb.com/news/content/2019-04/11/64_352074.html" target="_blank">불량기사 신고</a></li>\r\n            <li><a href="http://www.iybrb.com/news/content/2018-04/25/64_179892.html" target="_blank">제휴제안</a></li>\r\n            <li><a href="http://www.iybrb.com/news/content/2018-04/25/64_179891.html" target="_blank">기사제보</a></li>\r\n            <li><a href="http://www.iybrb.com/news/content/2018-04/25/64_179890.html" target="_blank">광고신청</a></li>\r\n\r\n        </ul>\r\n    </div>\r\n    <div class="xos">\r\n        <p>주소:중국 길림성 연길시 신화가 2호 (中国 吉林省 延吉市 新华街 2号)</p>\r\n        <p>신고 및 련락 전화번호: 0433-2513100&nbsp;&nbsp;|&nbsp;&nbsp; Email: webmaster@iybrb.com</p>\r\n        <p>互联网新闻信息服务许可证编号：22120180019</p>\r\n        <p><a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备09000490-2号</a> | <!-- 吉新出网备字005号 |--> Copyright © 2007-2020</p>\r\n    </div>\r\n    <div style="text-align:center;clear:both;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=22240102000014" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="\thttp://www.iybrb.com/res/img/2018/batb.png" style="float:left;margin-top:4px;"/>\r\n    <p style="float:left;height:20px;line-height:20px;margin: 4px 0px 0px 5px; color:#939393;">吉公网安备 22240102000014号</p></a> \r\n    </div>\r\n    <div style="text-align:center">\r\n\t\r\n    \t<script type="text/javascript">document.write(unescape("%3Cspan id=\'_ideConac\' %3E%3C/span%3E%3Cscript src=\'http://dcs.conac.cn/js/09/159/0000/60448587/CA091590000604485870002.js\' type=\'text/javascript\'%3E%3C/script%3E"));</script>\r\n    </div>\r\n\t<div>\r\n   \t\t<center><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id=\'cnzz_stat_icon_1273899259\'%3E%3C/span%3E%3Cscript src=\'" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1273899259%26show%3Dpic\' type=\'text/javascript\'%3E%3C/script%3E"));</script></center>\r\n    </div>\r\n</div>\r\n<script type="text/javascript">\r\n// eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!\'\'.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return\'\\\\w+\'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp(\'\\\\b\'+e(c)+\'\\\\b\',\'g\'),k[c]);return p;}(\'$(4).6(7(){$.3("0://1.2.8.5:d/e/c/",{"a":$("#b").9()})});\',15,15,\'http|202|111|post|document||ready|function|173|val|newsIdx|DocIDforCount|article|10922|ybrb\'.split(\'|\'),0,{}))\r\n</script> \r\n</body>\r\n</html>\r\n'}
+Found root:['(聰氣)', 'zh'] for word:총기
+Found root:['(暴力)', 'zh'] for word:폭력
+Found root:['(呻吟)', 'zh'] for word:신음
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(至難)', 'zh'] for word:지난
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(銃聲)', 'zh'] for word:총성
+Found root:['(沿邊)', 'zh'] for word:연변
+Found root:['(日報)', 'zh'] for word:일보
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(呻吟)', 'zh'] for word:신음
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(至難)', 'zh'] for word:지난
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(聰氣)', 'zh'] for word:총기
+Found root:['(暴力)', 'zh'] for word:폭력
+Found root:['(強打)', 'zh'] for word:강타
+Found root:['(東部)', 'zh'] for word:동부
+Found root:['(西部)', 'zh'] for word:서부
+Found root:['(中部)', 'zh'] for word:중부
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(名)', 'zh'] for word:명
+Found root:['(死亡者)', 'zh'] for word:사망자
+Found root:['(發生)', 'zh'] for word:발생
+Found root:['(現地)', 'zh'] for word:현지
+Found root:['(時間)', 'zh'] for word:시간
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(非營利)', 'zh'] for word:비영리
+Found root:['(硏究)', 'zh'] for word:연구
+Found root:['(團體)', 'zh'] for word:단체
+Found root:['(聰氣)', 'zh'] for word:총기
+Found root:['(暴力)', 'zh'] for word:폭력
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+WARN: (archive) is not Chinese
+Found word_class2
+WARN: (archive) is not Chinese
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(archive)', 'en') for word:아카이브
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(轉役)', 'zh'] for word:전역
+Found root:['(無慮)', 'zh'] for word:무려
+Found root:['(建議)', 'zh'] for word:건의
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(件)', 'zh'] for word:건
+Found root:['(團體)', 'zh'] for word:단체
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(除外)', 'zh'] for word:제외
+Found root:['(名)', 'zh'] for word:명
+Found root:['(以上)', 'zh'] for word:이상
+Found root:['(銃彈)', 'zh'] for word:총탄
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(定義)', 'zh'] for word:정의
+Found root:['(死亡者)', 'zh'] for word:사망자
+Found root:['(名)', 'zh'] for word:명
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(件)', 'zh'] for word:건
+Found root:['(Philadelphia)', 'en'] for word:필라델피아
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(前-)', 'zh'] for word:전날
+Found root:['(Philadelphia)', 'en'] for word:필라델피아
+Found root:['(都心)', 'zh'] for word:도심
+Found kr_dict section
+Found kr_dict list: 3
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(遊興街)', 'zh') for word:유흥가
+Found root:['(複數)', 'zh'] for word:복수
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(群衆)', 'zh'] for word:군중
+Found root:['(香)', 'zh'] for word:향
+Found root:['(總)', 'zh'] for word:총
+Found root:['(最小)', 'zh'] for word:최소
+Found root:['(名)', 'zh'] for word:명
+Found root:['(最小)', 'zh'] for word:최소
+Found root:['(名)', 'zh'] for word:명
+Found root:['(死亡者)', 'zh'] for word:사망자
+Found root:['(代)', 'zh'] for word:대
+Found root:['(年齡)', 'zh'] for word:년령
+Found root:['(名)', 'zh'] for word:명
+Found root:['(男性)', 'zh'] for word:남성
+Found root:['(名)', 'zh'] for word:명
+Found root:['(女性)', 'zh'] for word:녀성
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(發生)', 'zh'] for word:발생
+Found root:['(Philadelphia)', 'en'] for word:필라델피아
+Found root:['(Deep South)', 'en'] for word:사우스
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+WARN: (Main Street) is not Chinese
+Found word_class2
+WARN: (Bradstreet, Anne) is not Chinese
+Found word_class2
+WARN: (street furniture) is not Chinese
+Found word_class2
+WARN: (street dance) is not Chinese
+Found word_class2
+WARN: (shopping street) is not Chinese
+Found root:('(Main Street)', 'en') for word:스트리트
+Found root:['(食堂)', 'zh'] for word:식당
+Found root:['(密集)', 'zh'] for word:밀집
+Found root:['(地域)', 'zh'] for word:지역
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(地域)', 'zh'] for word:지역
+Found root:['(巡察)', 'zh'] for word:순찰
+Found root:['(警察官)', 'zh'] for word:경찰관
+Found root:['(子正)', 'zh'] for word:자정
+Found root:['(直前)', 'zh'] for word:직전
+Found root:['(發議)', 'zh'] for word:발의
+Found root:['(銃聲)', 'zh'] for word:총성
+Found root:['(對應)', 'zh'] for word:대응
+Found root:['(Philadelphia)', 'en'] for word:필라델피아
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(高位)', 'zh'] for word:고위
+Found root:['(幹部)', 'zh'] for word:간부
+Found root:['(pace)', 'en'] for word:페이스
+Found root:['(記者會見)', 'zh'] for word:기자회견
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(始作)', 'zh'] for word:시작
+Found root:['(週末)', 'zh'] for word:주말
+Found root:['(Deep South)', 'en'] for word:사우스
+Found root:('(Main Street)', 'en') for word:스트리트
+Found root:['(名義)', 'zh'] for word:명의
+Found root:['(市民)', 'zh'] for word:시민
+Found kr_dict section
+Found kr_dict list: 5
+Exception:list index out of range while searching word 순찰중
+Found root:['(景觀)', 'zh'] for word:경관
+Found root:['(複數)', 'zh'] for word:복수
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(群衆)', 'zh'] for word:군중
+Found root:['(香)', 'zh'] for word:향
+Found root:['(總)', 'zh'] for word:총
+Found root:['(目擊)', 'zh'] for word:목격
+Found root:['(故)', 'zh'] for word:고
+Found root:['(恨)', 'zh'] for word:한
+Found root:['(景觀)', 'zh'] for word:경관
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(名)', 'zh'] for word:명
+Found root:['(總)', 'zh'] for word:총
+Found kr_dict section
+Found kr_dict list: 5
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 1
+Found root:['(銃彈)', 'zh'] for word:총탄
+Found kr_dict section
+Found kr_dict list: 5
+Found root:['(pace)', 'en'] for word:페이스
+Found root:['(說明)', 'zh'] for word:설명
+Found root:['(現在)', 'zh'] for word:현재
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(關聯/關連)', 'zh'] for word:관련
+Found root:['(逮捕)', 'zh'] for word:체포
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(言論)', 'zh'] for word:언론
+Found root:['(報道)', 'zh'] for word:보도
+Found root:['(現場)', 'zh'] for word:현장
+Found root:['(目擊者)', 'zh'] for word:목격자
+Found root:['(條)', 'zh'] for word:조
+Found root:['(Smith, Adam)', 'en'] for word:스미스
+Found root:['(Philadelphia)', 'en'] for word:필라델피아
+Exception:object of type 'NoneType' has no len() while searching word 인콰이어러
+Found root:['(interview)', 'en'] for word:인터뷰
+Found root:['(銃聲)', 'zh'] for word:총성
+Found root:['(最近)', 'zh'] for word:최근
+Found root:['(美國)', 'zh'] for word:미국
+Found root:['(地域)', 'zh'] for word:지역
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(事件)', 'zh'] for word:사건
+Found kr_dict section
+Found kr_dict list: 1
+Found root:['(四方)', 'zh'] for word:사방
+Found root:['(悲鳴)', 'zh'] for word:비명
+Found root:['(故)', 'zh'] for word:고
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(現場)', 'zh'] for word:현장
+Found root:['(自動)', 'zh'] for word:자동
+Found root:['(拳銃)', 'zh'] for word:권총
+Found root:['(情)', 'zh'] for word:정
+Found root:['(收去)', 'zh'] for word:수거
+Found root:['(二重)', 'zh'] for word:이중
+Found root:['(丁銀)', 'zh'] for word:정은
+Found root:['(擴張)', 'zh'] for word:확장
+Found root:['(彈倉)', 'zh'] for word:탄창
+Found kr_dict section
+Found kr_dict list: 3
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(Lynn)', 'en'] for word:린
+Found root:['(商店)', 'zh'] for word:상점
+Found root:['(確認)', 'zh'] for word:확인
+Found root:['(要請)', 'zh'] for word:요청
+Found root:['(容疑者)', 'zh'] for word:용의자
+Found root:['(追跡)', 'zh'] for word:추적
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(午後)', 'zh'] for word:오후
+Found root:['(briefing)', 'en'] for word:브리핑
+Found root:['(通解)', 'zh'] for word:통해
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(個/箇/介)', 'zh'] for word:개
+Found root:['(group)', 'en'] for word:그룹
+Found root:['(衝突)', 'zh'] for word:충돌
+Found root:['(使用)', 'zh'] for word:사용
+Found root:['(聰氣)', 'zh'] for word:총기
+Found root:['(情)', 'zh'] for word:정
+Found root:['(故)', 'zh'] for word:고
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(Tennessee州)', 'zh') for word:테네시주
+Found kr_dict section
+Found kr_dict list: 2
+Found word_class2
+WARN: (Chattanooga) is not Chinese
+Found word_class2
+Found root:('(Chattanooga)', 'en') for word:채터누가
+Found root:['(聰氣)', 'zh'] for word:총기
+Found kr_dict section
+Found kr_dict list: 2
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(名)', 'zh'] for word:명
+Found root:['(死亡)', 'zh'] for word:사망
+Found root:['(名)', 'zh'] for word:명
+Found root:['(負傷)', 'zh'] for word:부상
+Found root:['(通信)', 'zh'] for word:통신
+Found root:['(午前)', 'zh'] for word:오전
+Found root:('(Tennessee州)', 'zh') for word:테네시주
+Found root:('(Chattanooga)', 'en') for word:채터누가
+Found root:['(恨)', 'zh'] for word:한
+Found root:['(nightclub)', 'en'] for word:나이트클럽
+Found root:['(Lynn)', 'en'] for word:린
+Found root:['(道路)', 'zh'] for word:도로
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(發生)', 'zh'] for word:발생
+Found root:['(名)', 'zh'] for word:명
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(總相)', 'zh') for word:총상
+Found root:['(名)', 'zh'] for word:명
+Found root:['(現場)', 'zh'] for word:현장
+Found root:['(次)', 'zh'] for word:차
+Found root:['(交通事故)', 'zh'] for word:교통사고
+Found root:['(名)', 'zh'] for word:명
+Found root:('(總相)', 'zh') for word:총상
+Found root:['(名)', 'zh'] for word:명
+Found root:['(交通事故)', 'zh'] for word:교통사고
+Found root:['(各各)', 'zh'] for word:각각
+Found root:['(一部)', 'zh'] for word:일부
+Found root:['(被害者)', 'zh'] for word:피해자
+Found root:['(重態)', 'zh'] for word:중태
+Found root:['(名義)', 'zh'] for word:명의
+Found root:['(史上)', 'zh'] for word:사상
+Found root:['(自重)', 'zh'] for word:자중
+Found root:['(名)', 'zh'] for word:명
+Found root:['(成人)', 'zh'] for word:성인
+Found root:['(名)', 'zh'] for word:명
+Found root:['(靑少年)', 'zh'] for word:청소년
+Found root:['(大箜篌)', 'zh'] for word:전해졌다
+Found root:['(犯行)', 'zh'] for word:범행
+Found root:['(童伎)', 'zh'] for word:동기
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(被害者)', 'zh'] for word:피해자
+Found root:['(一部)', 'zh'] for word:일부
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(報告)', 'zh'] for word:보고
+Found kr_dict section
+Found kr_dict list: 3
+Found word_class2
+WARN: (Detroit) is not Chinese
+Found word_class2
+Found word_class2
+WARN: (Detroit International Jazz Festival) is not Chinese
+Found root:('(Detroit)', 'en') for word:디트로이트
+Found root:['(北西-)', 'zh'] for word:북서쪽
+Found root:['(kilo)', 'en'] for word:킬로
+Found root:['(meter)', 'en'] for word:메터
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(Michigan州)', 'zh') for word:미시간주
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(名)', 'zh'] for word:명
+Found root:['(死亡)', 'zh'] for word:사망
+Found root:['(午前)', 'zh'] for word:오전
+Exception:object of type 'NoneType' has no len() while searching word 새기노에서
+Found root:['(發議)', 'zh'] for word:발의
+Found root:['(銃聲)', 'zh'] for word:총성
+Found kr_dict section
+Found kr_dict list: 1
+Found root:['(申告)', 'zh'] for word:신고
+Found root:['(接受)', 'zh'] for word:접수
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(出動)', 'zh'] for word:출동
+Found root:['(通信)', 'zh'] for word:통신
+Found root:['(地域)', 'zh'] for word:지역
+Found root:['(媒體)', 'zh'] for word:매체
+Found root:['(live)', 'en'] for word:라이브
+Found root:['(認容)', 'zh'] for word:인용
+Found root:['(煎)', 'zh'] for word:전
+Found root:['(男性)', 'zh'] for word:남성
+Found root:['(名)', 'zh'] for word:명
+Found root:['(現場)', 'zh'] for word:현장
+Found root:['(卽死)', 'zh'] for word:즉사
+Found root:['(女性)', 'zh'] for word:녀성
+Found root:['(名)', 'zh'] for word:명
+Found root:['(病院)', 'zh'] for word:병원
+Found kr_dict section
+Found kr_dict list: 5
+Exception:list index out of range while searching word 옮겨졌으나
+Found root:['(以後)', 'zh'] for word:이후
+Found root:['(死亡)', 'zh'] for word:사망
+Found root:['(男性)', 'zh'] for word:남성
+Found root:['(名)', 'zh'] for word:명
+Found root:['(銃擊)', 'zh'] for word:총격
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found word_class2
+Found root:('(Arizona州)', 'zh') for word:애리조나주
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+WARN: ([에스파냐어]mesa) is not Chinese
+Found root:('([에스파냐어]mesa)', 'ko') for word:메사
+Found root:['(恨)', 'zh'] for word:한
+Found root:['(午前)', 'zh'] for word:오전
+Found root:['(銃擊)', 'zh'] for word:총격
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(發生)', 'zh'] for word:발생
+Found root:['(男性)', 'zh'] for word:남성
+Found root:['(名)', 'zh'] for word:명
+Found root:['(死亡)', 'zh'] for word:사망
+Found root:['(名)', 'zh'] for word:명
+Found root:('([에스파냐어]mesa)', 'ko') for word:메사
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(負傷)', 'zh'] for word:부상
+Found root:['(生命)', 'zh'] for word:생명
+Found root:['(支障)', 'zh'] for word:지장
+Found root:['(大箜篌)', 'zh'] for word:전해졌다
+Found root:['(警察)', 'zh'] for word:경찰
+Found root:['(事件)', 'zh'] for word:사건
+Found root:['(直後)', 'zh'] for word:직후
+Found root:['(現場)', 'zh'] for word:현장
+Found kr_dict section
+Found kr_dict list: 1
+Found root:['(自動車)', 'zh'] for word:자동차
+Found root:['(彈)', 'zh'] for word:탄
+Found root:['(名)', 'zh'] for word:명
+Found root:['(調査)', 'zh'] for word:조사
+Found root:('(Arizona州)', 'zh') for word:애리조나주
+Found kr_dict section
+Found kr_dict list: 5
+Found word_class2
+WARN: (phoenix) is not Chinese
+Found word_class2
+WARN: (Phoenix) is not Chinese
+Found word_class2
+WARN: (phoenix) is not Chinese
+Found word_class2
+WARN: (Phoenix) is not Chinese
+Found word_class2
+WARN: (phoenix) is not Chinese
+Found root:('(phoenix)', 'en') for word:피닉스
+Found root:['(土曜日)', 'zh'] for word:토요일
+Process page http://www.iybrb.com/news/content/2022-06/08/60_556024.html
